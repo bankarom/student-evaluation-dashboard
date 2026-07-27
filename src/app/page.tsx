@@ -115,8 +115,9 @@ export default function Home() {
           <div className="flex justify-between items-center mb-4 mt-8">
             <h2 className="text-xl font-bold text-gray-900">Session Evaluations</h2>
             <button
+              type="button"
               onClick={() => setIsScoringModalOpen(true)}
-              className="text-sm font-medium text-blue-600 bg-blue-50 hover:bg-blue-100 px-4 py-2 rounded-lg flex items-center transition-colors border border-blue-100"
+              className="text-sm font-medium text-blue-600 bg-blue-50 hover:bg-blue-100 px-4 py-2 rounded-lg flex items-center transition-colors border border-blue-100 cursor-pointer"
             >
               <svg className="w-4 h-4 mr-1.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
               How are scores calculated?
@@ -180,7 +181,7 @@ export default function Home() {
                     <button 
                       type="button" 
                       onClick={() => setIsScoringModalOpen(false)}
-                      className="w-full inline-flex justify-center rounded-lg border border-transparent shadow-sm px-4 py-2 bg-blue-600 text-base font-medium text-white hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 sm:ml-3 sm:w-auto sm:text-sm"
+                      className="w-full inline-flex justify-center rounded-lg border border-transparent shadow-sm px-4 py-2 bg-blue-600 text-base font-medium text-white hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 sm:ml-3 sm:w-auto sm:text-sm cursor-pointer"
                     >
                       Understood
                     </button>
