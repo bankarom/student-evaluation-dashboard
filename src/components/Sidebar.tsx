@@ -5,7 +5,7 @@ export default function Sidebar() {
   return (
     <aside className="w-64 bg-gray-900 text-white flex flex-col h-full hidden md:flex min-h-screen">
       <div className="p-6 border-b border-gray-800">
-        <h1 className="text-2xl font-bold tracking-tight text-white">Bodhrik</h1>
+        <h1 className="text-2xl font-bold tracking-tight text-white">Student</h1>
         <p className="text-xs text-gray-400 mt-1">Analytics Dashboard</p>
       </div>
       
@@ -31,7 +31,7 @@ export default function Sidebar() {
           </div>
           <div className="ml-3">
             <p className="text-sm font-medium text-white">Admin</p>
-            <p className="text-xs text-gray-400">admin@bodhrik.com</p>
+            <p className="text-xs text-gray-400">admin@student.com</p>
           </div>
         </div>
       </div>

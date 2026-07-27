@@ -23,7 +23,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       setUser({
         id: 'u-1',
         name: 'Demo Admin',
-        email: 'admin@bodhrik.com',
+        email: 'admin@student.com',
         role: 'admin'
       });
     }
@@ -35,7 +35,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     setUser({
       id: 'u-1',
       name: 'Demo Admin',
-      email: 'admin@bodhrik.com',
+      email: 'admin@student.com',
       role: 'admin'
     });
   };

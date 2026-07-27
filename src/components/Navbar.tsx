@@ -16,7 +16,7 @@ export default function Navbar() {
   return (
     <header className="bg-white shadow-sm h-16 flex items-center justify-between px-6 border-b border-gray-200">
       <div className="flex items-center md:hidden">
-        <h2 className="text-xl font-bold text-gray-800">Bodhrik</h2>
+        <h2 className="text-xl font-bold text-gray-800">Student</h2>
       </div>
       <div className="hidden md:flex items-center">
         {/* Placeholder for breadcrumbs or search in navbar if needed */}

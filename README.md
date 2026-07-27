@@ -47,7 +47,7 @@ This is a production-quality Next.js application built as a Frontend Engineer ta
 
 ## Mock Login Credentials
 Use the following credentials to access the protected dashboard:
-- **Email**: \`admin@bodhrik.com\`
+- **Email**: \`admin@student.com\`
 - **Password**: \`password\`
 
 ## Folder Structure
@@ -61,4 +61,4 @@ Use the following credentials to access the protected dashboard:
 ## Future Improvements & Scalability
 For 10,000+ sessions, this application would transition client-side filtering to Server-Side Filtering, utilize Pagination in the Session Table, and leverage a real backend database to reduce client payload size.
 
-*Built for the Bodhrik Frontend Engineer Assignment.*
+*Built for the Student Frontend Engineer Assignment.*
