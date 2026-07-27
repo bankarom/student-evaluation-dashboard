@@ -4,10 +4,11 @@ import { useEffect, useState, useMemo } from "react";
 import ProtectedRoute from "@/components/ProtectedRoute";
 import DashboardLayout from "@/components/DashboardLayout";
 import SummaryCards from "@/components/SummaryCards";
-import SessionTable from "@/components/SessionTable";
-import FilterBar from "@/components/FilterBar";
 import { getSessions } from "@/lib/api";
 import { Session } from "@/types";
+import SessionTable from "@/components/SessionTable";
+import FilterBar from "@/components/FilterBar";
+import ErrorMessage from "@/components/ErrorMessage";
 
 export default function Home() {
   const [sessions, setSessions] = useState<Session[]>([]);
@@ -96,15 +97,7 @@ export default function Home() {
               <p className="text-gray-500 font-medium">Loading sessions data...</p>
             </div>
           ) : error ? (
-            <div className="bg-red-50 p-8 rounded-xl border border-red-100 text-center text-red-600">
-              <p>{error}</p>
-              <button 
-                onClick={() => window.location.reload()} 
-                className="mt-4 px-4 py-2 bg-red-600 text-white rounded hover:bg-red-700"
-              >
-                Retry
-              </button>
-            </div>
+            <ErrorMessage message={error} onRetry={() => window.location.reload()} />
           ) : filteredSessions.length === 0 ? (
             <div className="bg-white p-12 rounded-xl shadow-sm border border-gray-100 flex flex-col items-center justify-center text-center">
               <svg className="w-16 h-16 text-gray-300 mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
