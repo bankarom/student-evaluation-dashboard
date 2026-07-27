@@ -6,6 +6,7 @@ import ProtectedRoute from "@/components/ProtectedRoute";
 import DashboardLayout from "@/components/DashboardLayout";
 import ErrorMessage from "@/components/ErrorMessage";
 import MetricsChart from "@/components/MetricsChart";
+import MonitorAgentModal from "@/components/MonitorAgentModal";
 import { getSessionById } from "@/lib/api";
 import { Session } from "@/types";
 import Link from "next/link";
@@ -17,6 +18,7 @@ export default function SessionDetail() {
   const [session, setSession] = useState<Session | null>(null);
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
   useEffect(() => {
     async function fetchSessionDetail() {
@@ -58,10 +60,16 @@ Note: This is not part of the required assignment, but a bonus demonstration fea
     <ProtectedRoute>
       <DashboardLayout>
         <div className="max-w-7xl mx-auto">
+          <MonitorAgentModal 
+            isOpen={isModalOpen} 
+            onClose={() => setIsModalOpen(false)} 
+            onDownload={handleDownloadDemo} 
+          />
+          
           <div className="mb-6 flex items-center justify-between">
             <button 
               onClick={() => router.push('/')}
-              className="text-gray-500 hover:text-gray-700 flex items-center"
+              className="text-gray-500 hover:text-gray-700 flex items-center transition-colors"
             >
               <svg className="w-5 h-5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
@@ -69,10 +77,13 @@ Note: This is not part of the required assignment, but a bonus demonstration fea
               Back to Dashboard
             </button>
             <button
-              onClick={handleDownloadDemo}
-              className="px-4 py-2 bg-indigo-50 text-indigo-700 hover:bg-indigo-100 rounded-md text-sm font-medium transition-colors border border-indigo-200"
+              onClick={() => setIsModalOpen(true)}
+              className="px-4 py-2 bg-indigo-50 text-indigo-700 hover:bg-indigo-100 hover:shadow-sm rounded-md text-sm font-medium transition-all border border-indigo-200 flex items-center"
             >
-              Download Monitoring Agent (Demo)
+              <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+              </svg>
+              Monitor Agent (Demo)
             </button>
           </div>
 

@@ -9,6 +9,7 @@ import { Session } from "@/types";
 import SessionTable from "@/components/SessionTable";
 import FilterBar from "@/components/FilterBar";
 import ErrorMessage from "@/components/ErrorMessage";
+import AnalyticsDashboard from "@/components/AnalyticsDashboard";
 
 export default function Home() {
   const [sessions, setSessions] = useState<Session[]>([]);
@@ -105,6 +106,8 @@ export default function Home() {
             avgClarity={avgClarity} 
             needsReview={needsReview} 
           />
+
+          <AnalyticsDashboard sessions={filteredSessions} />
           
           <FilterBar 
             searchQuery={searchQuery}
