@@ -202,7 +202,7 @@ Note: This is not part of the required assignment, but a bonus demonstration fea
                         <div className="flex-1">
                           <p className="text-xs text-emerald-800/70 font-bold uppercase tracking-wide">Overall Grade</p>
                           <p className="text-xl font-black text-emerald-950">
-                            {session.status === 'Excellent' ? 'A+' : session.status === 'Good' ? 'B' : session.status === 'Average' ? 'C' : 'D'}
+                            {session.status === 'Excellent' ? 'A+' : session.status === 'Average' ? 'B' : session.status === 'Needs Attention' ? 'C-' : 'N/A'}
                           </p>
                         </div>
                       </div>
