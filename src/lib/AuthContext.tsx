@@ -17,8 +17,8 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    // Check local storage on mount
-    const storedAuth = localStorage.getItem('auth_token');
+    // Check session storage on mount
+    const storedAuth = sessionStorage.getItem('auth_token');
     if (storedAuth === 'valid_mock_token') {
       setUser({
         id: 'u-1',
@@ -31,7 +31,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   }, []);
 
   const login = () => {
-    localStorage.setItem('auth_token', 'valid_mock_token');
+    sessionStorage.setItem('auth_token', 'valid_mock_token');
     setUser({
       id: 'u-1',
       name: 'Demo Admin',
@@ -41,7 +41,7 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   };
 
   const logout = () => {
-    localStorage.removeItem('auth_token');
+    sessionStorage.removeItem('auth_token');
     setUser(null);
   };
 
