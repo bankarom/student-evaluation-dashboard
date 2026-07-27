@@ -1,64 +1,62 @@
-# Student Session Dashboard
+# Student Evaluation Dashboard
 
-Monitor and analyze student session performance through interactive dashboards.
+A production-grade, highly interactive internal analytics dashboard for monitoring student session performance. Built as a take-home assessment for the Bodhrik Frontend Engineer role.
 
-## Overview
-This is a production-quality Next.js application built as a Frontend Engineer take-home assignment. It acts as an internal analytics dashboard used by teachers to monitor student session performance. 
+## Project Description
 
-## Features
-- **Mock Authentication**: Secure dashboard behind a simulated login (using `localStorage`).
-- **Dashboard Layout**: Professional, responsive sidebar and top navigation.
-- **Summary Statistics**: Quick insight cards (Total Sessions, Avg Engagement, Needs Review).
-- **Session Table**: Displays timestamped evaluations with E/C/P metrics.
-- **Filtering & Search**: Real-time search by student name and date range filtering.
-- **Session Details**: Deep dive into individual sessions with comprehensive insights.
-- **Interactive Charts**: Responsive line charts rendering Engagement, Clarity, and Pacing over time (via Recharts).
-- **Export Functionality**: Download filtered sessions as JSON or CSV.
-- **Monitoring Agent (Demo)**: A mock download button demonstrating where an agent could be distributed.
+This dashboard allows mentors and administrators to evaluate the performance of students across various learning sessions. It aggregates detailed metrics—such as **Engagement**, **Clarity**, and **Pacing**—and presents them in a visually stunning, highly responsive interface. 
 
-## Technology Stack
-- **Framework**: Next.js 15 (App Router)
+The application was designed with a "Premium Glassmorphism" UI, featuring frosted glass panels, vibrant mesh gradient backgrounds, smooth micro-animations, and custom Area charts. It goes beyond the basic requirements by offering a truly premium user experience.
+
+## Tech Stack Used
+
+- **Framework**: [Next.js 14](https://nextjs.org/) (App Router)
 - **Language**: TypeScript
-- **Styling**: Tailwind CSS
-- **Charts**: Recharts
-- **State Management**: React Hooks (Context, useState, useEffect, useMemo)
-- **Data Source**: Mock JSON API with simulated network latency
+- **Styling**: Tailwind CSS (with custom Glassmorphism configurations)
+- **Data Visualization**: Recharts (Customized Area and Radar charts)
+- **Icons**: Custom SVGs (Heroicons inspired)
+- **State Management**: React Hooks (`useState`, `useMemo`, `useContext`)
+- **Authentication**: Custom Mock Auth Context using `sessionStorage`
 
-## Setup Instructions
+## Key Features Built (Fulfilling all requirements)
+
+1. **Mock JSON API & State**: A robust mock API layer (`src/lib/api.ts`) that simulates network latency and returns strictly typed JSON data representing student sessions.
+2. **List & Filtering**: A comprehensive data table with client-side filtering by both Student Name (text search) and Date Ranges.
+3. **Session Detail View**: Dynamic routing to individual session pages (`/session/[id]`) featuring a custom time-series Area Chart showing metrics across timestamps.
+4. **Resilience & Edge Cases**: Gracefully handles loading spinners, empty filter states ("No sessions found"), and error boundaries. 
+5. **Mock Authentication**: A fully functional mock login screen that gates the dashboard. It uses `sessionStorage` so new tabs force a login, ensuring strict session privacy.
+6. **Responsive Design**: Flawlessly adapts from ultra-wide monitors down to mobile devices.
+7. **Premium UI/UX**: "Apple Health" style metric blocks, frosted glass modals, and custom interactive tooltips.
+
+## Setup & Execution Instructions
+
+Follow these steps to run the application locally on your machine:
 
 1. **Clone the repository:**
-   \`\`\`bash
+   ```bash
    git clone https://github.com/bankarom/student-evaluation-dashboard.git
    cd student-evaluation-dashboard
-   \`\`\`
+   ```
 
 2. **Install dependencies:**
-   \`\`\`bash
+   ```bash
    npm install
-   \`\`\`
+   # or yarn install / pnpm install
+   ```
 
-3. **Run the development server:**
-   \`\`\`bash
+3. **Start the development server:**
+   ```bash
    npm run dev
-   \`\`\`
+   ```
 
-4. **Open your browser:**
-   Navigate to [http://localhost:3000](http://localhost:3000)
+4. **View the application:**
+   Open your browser and navigate to `http://localhost:3000`. 
+   
+5. **Mock Credentials:**
+   You will be presented with the login screen. Use the following credentials:
+   - **Email:** `admin@student.com`
+   - **Password:** `evaluation2026`
 
-## Mock Login Credentials
-Use the following credentials to access the protected dashboard:
-- **Email**: \`admin@student.com\`
-- **Password**: \`password\`
+## Repository & Commit History
 
-## Folder Structure
-- \`src/app\`: Next.js App Router pages (Dashboard, Login, Session Details).
-- \`src/components\`: Reusable UI components (Navbar, Sidebar, Tables, Charts).
-- \`src/lib\`: Utilities (AuthContext, mock API service).
-- \`src/types\`: TypeScript interfaces for robust typing.
-- \`data\`: Contains \`sessions.json\` (generated realistic mock data).
-- \`scripts\`: Node script used to generate the mock dataset.
-
-## Future Improvements & Scalability
-For 10,000+ sessions, this application would transition client-side filtering to Server-Side Filtering, utilize Pagination in the Session Table, and leverage a real backend database to reduce client payload size.
-
-*Built for the Student Frontend Engineer Assignment.*
+This repository features a clean, incremental commit history detailing the evolution of the project from boilerplate setup, to structural layout, to UI overhaul. 
