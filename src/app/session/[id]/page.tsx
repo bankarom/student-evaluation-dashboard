@@ -80,7 +80,7 @@ Note: This is not part of the required assignment, but a bonus demonstration fea
             <div className="flex gap-3">
               <button
                 onClick={() => window.print()}
-                className="px-4 py-2 bg-white text-gray-700 hover:bg-gray-50 hover:shadow-sm rounded-md text-sm font-medium transition-all border border-gray-200 flex items-center"
+                className="px-4 py-2 bg-white text-gray-700 hover:bg-gray-50 hover:shadow-sm rounded-md text-sm font-medium transition-all border border-gray-200 flex items-center cursor-pointer"
               >
                 <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
