@@ -33,20 +33,10 @@ To ensure a premium user experience, the following features were added beyond th
 - **Premium Glassmorphism UI**: High-end styling using frosted glass panels, mesh gradient backgrounds, and micro-animations (similar to Apple Health / macOS).
 - **Custom Area & Radar Charts**: Upgraded standard Recharts lines to custom SVG Area fills with natural smoothing and beautiful tooltips.
 
-## Setup & Execution Instructions
+## Setup & Execution Instructions 
 
-Follow these steps to run the application locally:
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/bankarom/student-evaluation-dashboard.git
-   cd student-evaluation-dashboard
-   npm install
-   npm run dev
-   ```
 
-2. **Mock Credentials:**
-   Navigate to `http://localhost:3000` and use:
    - **Email:** `admin@student.com`
    - **Password:** `evaluation2026`
 
