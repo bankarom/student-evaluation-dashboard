@@ -38,19 +38,41 @@ export default function SessionDetail() {
     fetchSessionDetail();
   }, [id]);
 
+  const handleDownloadDemo = () => {
+    const readmeContent = `MONITORING AGENT (DEMO FEATURE)
+===============================
+This is a demonstration of the Monitoring Agent download.
+In a production environment, this agent would run locally on the student's machine to securely collect session metrics (like engagement, clarity, and pacing) and upload them to the backend API.
+
+Note: This is not part of the required assignment, but a bonus demonstration feature.`;
+    
+    const blob = new Blob([readmeContent], { type: 'text/plain' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'Monitoring_Agent_Demo.txt';
+    a.click();
+  };
+
   return (
     <ProtectedRoute>
       <DashboardLayout>
         <div className="max-w-7xl mx-auto">
-          <div className="mb-6 flex items-center">
+          <div className="mb-6 flex items-center justify-between">
             <button 
               onClick={() => router.push('/')}
-              className="text-gray-500 hover:text-gray-700 flex items-center mr-4"
+              className="text-gray-500 hover:text-gray-700 flex items-center"
             >
               <svg className="w-5 h-5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
               </svg>
               Back to Dashboard
+            </button>
+            <button
+              onClick={handleDownloadDemo}
+              className="px-4 py-2 bg-indigo-50 text-indigo-700 hover:bg-indigo-100 rounded-md text-sm font-medium transition-colors border border-indigo-200"
+            >
+              Download Monitoring Agent (Demo)
             </button>
           </div>
 
