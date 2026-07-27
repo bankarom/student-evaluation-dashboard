@@ -70,10 +70,10 @@ Note: This is not part of the required assignment, but a bonus demonstration fea
           <div className="mb-6 flex items-center justify-between">
             <button 
               onClick={() => router.push('/')}
-              className="text-gray-500 hover:text-gray-700 flex items-center transition-colors"
+              className="text-gray-600 hover:text-blue-600 font-semibold flex items-center transition-all bg-white/50 px-3 py-1.5 rounded-lg border border-white/60 shadow-sm hover:shadow-md cursor-pointer"
             >
               <svg className="w-5 h-5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M15 19l-7-7 7-7" />
               </svg>
               Back to Dashboard
             </button>
