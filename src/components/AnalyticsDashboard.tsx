@@ -89,10 +89,10 @@ export default function AnalyticsDashboard({ sessions }: AnalyticsDashboardProps
               margin={{ top: 20, right: 30, left: 0, bottom: 5 }}
             >
               <CartesianGrid strokeDasharray="3 3" stroke="#f0f0f0" />
-              <XAxis dataKey="name" tick={{ fontSize: 12 }} />
+              <XAxis dataKey="name" tick={{ fontSize: 12 }} height={50} tickMargin={10} />
               <YAxis domain={[0, 100]} tick={{ fontSize: 12 }} />
-              <Tooltip contentStyle={{ borderRadius: '8px' }} />
-              <Legend />
+              <Tooltip contentStyle={{ borderRadius: '8px', border: 'none', boxShadow: '0 4px 6px -1px rgb(0 0 0 / 0.1)' }} />
+              <Legend wrapperStyle={{ paddingTop: '10px' }} />
               <Bar dataKey="Avg Engagement" fill="#3b82f6" radius={[4, 4, 0, 0]} />
               <Bar dataKey="Avg Clarity" fill="#10b981" radius={[4, 4, 0, 0]} />
             </BarChart>
