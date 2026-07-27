@@ -126,65 +126,82 @@ export default function Home() {
 
           {/* Scoring Rubric Modal */}
           {isScoringModalOpen && (
-            <div className="fixed inset-0 z-50 overflow-y-auto" aria-labelledby="modal-title" role="dialog" aria-modal="true">
-              <div className="flex items-end justify-center min-h-screen pt-4 px-4 pb-20 text-center sm:block sm:p-0">
-                <div className="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity" aria-hidden="true" onClick={() => setIsScoringModalOpen(false)}></div>
-                <span className="hidden sm:inline-block sm:align-middle sm:h-screen" aria-hidden="true">&#8203;</span>
-                <div className="inline-block align-bottom bg-white rounded-2xl text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-2xl sm:w-full">
-                  <div className="bg-white px-4 pt-5 pb-4 sm:p-6 sm:pb-4">
-                    <div className="sm:flex sm:items-start">
-                      <div className="mx-auto flex-shrink-0 flex items-center justify-center h-12 w-12 rounded-full bg-blue-100 sm:mx-0 sm:h-10 sm:w-10">
-                        <svg className="h-6 w-6 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+            <div className="relative z-50" aria-labelledby="modal-title" role="dialog" aria-modal="true">
+              {/* Backdrop */}
+              <div className="fixed inset-0 bg-gray-900 bg-opacity-75 transition-opacity backdrop-blur-sm"></div>
+
+              <div className="fixed inset-0 z-50 w-screen overflow-y-auto">
+                <div className="flex min-h-full items-end justify-center p-4 text-center sm:items-center sm:p-0">
+                  {/* Modal Panel */}
+                  <div className="relative transform overflow-hidden rounded-2xl bg-white text-left shadow-2xl transition-all sm:my-8 sm:w-full sm:max-w-2xl border border-gray-100">
+                    <div className="absolute right-0 top-0 pr-4 pt-4">
+                      <button
+                        type="button"
+                        onClick={() => setIsScoringModalOpen(false)}
+                        className="rounded-md bg-white text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+                      >
+                        <span className="sr-only">Close</span>
+                        <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" aria-hidden="true">
+                          <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
                         </svg>
-                      </div>
-                      <div className="mt-3 text-center sm:mt-0 sm:ml-4 sm:text-left">
-                        <h3 className="text-lg leading-6 font-bold text-gray-900" id="modal-title">
-                          Evaluation Methodology & Scoring Rubric
-                        </h3>
-                        <div className="mt-4 space-y-4">
-                          <p className="text-sm text-gray-500">
-                            Our proprietary Student Monitor Agent natively analyzes 3 core dimensions of a live session.
-                          </p>
-                          <div className="bg-gray-50 p-4 rounded-xl border border-gray-100">
-                            <h4 className="font-bold text-gray-900 text-sm mb-2 flex items-center">
-                              <span className="w-2 h-2 rounded-full bg-blue-500 mr-2"></span> Engagement (E)
-                            </h4>
-                            <p className="text-sm text-gray-600">Measures visual focus, eye-tracking attention markers, and response times to interactive polls or questions during the session.</p>
-                          </div>
-                          <div className="bg-gray-50 p-4 rounded-xl border border-gray-100">
-                            <h4 className="font-bold text-gray-900 text-sm mb-2 flex items-center">
-                              <span className="w-2 h-2 rounded-full bg-green-500 mr-2"></span> Clarity (C)
-                            </h4>
-                            <p className="text-sm text-gray-600">Evaluates voice tone confidence, question frequency, and real-time comprehension markers from the student.</p>
-                          </div>
-                          <div className="bg-gray-50 p-4 rounded-xl border border-gray-100">
-                            <h4 className="font-bold text-gray-900 text-sm mb-2 flex items-center">
-                              <span className="w-2 h-2 rounded-full bg-orange-500 mr-2"></span> Pacing (P)
-                            </h4>
-                            <p className="text-sm text-gray-600">Analyzes the speed of the mentor's delivery versus the student's cognitive processing rate (measured via interaction velocity).</p>
-                          </div>
-                          <div className="mt-4">
-                            <h4 className="font-bold text-gray-900 text-sm mb-2">Final Status Calculation</h4>
-                            <div className="flex gap-2 text-xs flex-wrap">
-                              <span className="px-2 py-1 bg-green-100 text-green-800 rounded font-medium">&gt; 85 avg = Excellent</span>
-                              <span className="px-2 py-1 bg-blue-100 text-blue-800 rounded font-medium">&gt; 70 avg = Good</span>
-                              <span className="px-2 py-1 bg-yellow-100 text-yellow-800 rounded font-medium">&gt; 60 avg = Average</span>
-                              <span className="px-2 py-1 bg-red-100 text-red-800 rounded font-medium">&lt; 60 avg = Needs Attention</span>
+                      </button>
+                    </div>
+
+                    <div className="bg-white px-4 pb-4 pt-5 sm:p-6 sm:pb-4">
+                      <div className="sm:flex sm:items-start">
+                        <div className="mx-auto flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-full bg-blue-100 sm:mx-0 sm:h-10 sm:w-10">
+                          <svg className="h-6 w-6 text-blue-600" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor">
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M12 18v-5.25m0 0a6.01 6.01 0 001.5-.189m-1.5.189a6.01 6.01 0 01-1.5-.189m3.75 7.478a12.06 12.06 0 01-4.5 0m3.75 2.383a14.406 14.406 0 01-3 0M14.25 18v-.192c0-.983.658-1.829 1.58-1.936a4.5 4.5 0 004.5-4.5 3.01 3.01 0 00-1.5-2.59A14.22 14.22 0 0012 2.75a14.22 14.22 0 00-6.83 1.942 3.01 3.01 0 00-1.5 2.59 4.5 4.5 0 004.5 4.5c.922.107 1.58.953 1.58 1.936v.192m-3.75 0h7.5" />
+                          </svg>
+                        </div>
+                        <div className="mt-3 text-center sm:ml-4 sm:mt-0 sm:text-left">
+                          <h3 className="text-lg font-bold leading-6 text-gray-900" id="modal-title">
+                            Evaluation Methodology & Scoring Rubric
+                          </h3>
+                          <div className="mt-4 space-y-4">
+                            <p className="text-sm text-gray-500">
+                              Our proprietary Student Monitor Agent natively analyzes 3 core dimensions of a live session.
+                            </p>
+                            <div className="bg-gray-50 p-4 rounded-xl border border-gray-100">
+                              <h4 className="font-bold text-gray-900 text-sm mb-2 flex items-center">
+                                <span className="w-2 h-2 rounded-full bg-blue-500 mr-2"></span> Engagement (E)
+                              </h4>
+                              <p className="text-sm text-gray-600">Measures visual focus, eye-tracking attention markers, and response times to interactive polls or questions during the session.</p>
+                            </div>
+                            <div className="bg-gray-50 p-4 rounded-xl border border-gray-100">
+                              <h4 className="font-bold text-gray-900 text-sm mb-2 flex items-center">
+                                <span className="w-2 h-2 rounded-full bg-green-500 mr-2"></span> Clarity (C)
+                              </h4>
+                              <p className="text-sm text-gray-600">Evaluates voice tone confidence, question frequency, and real-time comprehension markers from the student.</p>
+                            </div>
+                            <div className="bg-gray-50 p-4 rounded-xl border border-gray-100">
+                              <h4 className="font-bold text-gray-900 text-sm mb-2 flex items-center">
+                                <span className="w-2 h-2 rounded-full bg-orange-500 mr-2"></span> Pacing (P)
+                              </h4>
+                              <p className="text-sm text-gray-600">Analyzes the speed of the mentor's delivery versus the student's cognitive processing rate (measured via interaction velocity).</p>
+                            </div>
+                            <div className="mt-4">
+                              <h4 className="font-bold text-gray-900 text-sm mb-2">Final Status Calculation</h4>
+                              <div className="flex gap-2 text-xs flex-wrap">
+                                <span className="px-2 py-1 bg-green-100 text-green-800 rounded font-medium">&gt; 85 avg = Excellent</span>
+                                <span className="px-2 py-1 bg-blue-100 text-blue-800 rounded font-medium">&gt; 70 avg = Good</span>
+                                <span className="px-2 py-1 bg-yellow-100 text-yellow-800 rounded font-medium">&gt; 60 avg = Average</span>
+                                <span className="px-2 py-1 bg-red-100 text-red-800 rounded font-medium">&lt; 60 avg = Needs Attention</span>
+                              </div>
                             </div>
                           </div>
                         </div>
                       </div>
                     </div>
-                  </div>
-                  <div className="bg-gray-50 px-4 py-3 sm:px-6 sm:flex sm:flex-row-reverse border-t border-gray-100">
-                    <button 
-                      type="button" 
-                      onClick={() => setIsScoringModalOpen(false)}
-                      className="w-full inline-flex justify-center rounded-lg border border-transparent shadow-sm px-4 py-2 bg-blue-600 text-base font-medium text-white hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 sm:ml-3 sm:w-auto sm:text-sm cursor-pointer"
-                    >
-                      Understood
-                    </button>
+                    <div className="bg-gray-50 px-4 py-3 sm:flex sm:flex-row-reverse sm:px-6 border-t border-gray-100">
+                      <button
+                        type="button"
+                        onClick={() => setIsScoringModalOpen(false)}
+                        className="inline-flex w-full justify-center rounded-lg bg-blue-600 px-4 py-2 text-sm font-bold text-white shadow-sm hover:bg-blue-700 sm:ml-3 sm:w-auto cursor-pointer"
+                      >
+                        Understood
+                      </button>
+                    </div>
                   </div>
                 </div>
               </div>
