@@ -26,7 +26,16 @@ export default function SessionTable({ sessions }: SessionTableProps) {
           
           <div className="p-5 border-b border-gray-50 flex justify-between items-start">
             <div>
-              <h3 className="text-lg font-bold text-gray-900">{session.studentName}</h3>
+              <h3 className="text-lg font-bold text-gray-900 flex items-center">
+                {session.studentName}
+                {/* Randomly simulate live sessions for recent dates */}
+                {session.date >= "2026-07-26" && (
+                  <span className="ml-2 flex h-2.5 w-2.5 relative">
+                    <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
+                    <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-green-500" title="Live Session Active"></span>
+                  </span>
+                )}
+              </h3>
               <p className="text-sm text-gray-500 flex items-center mt-1">
                 <svg className="w-4 h-4 mr-1 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
