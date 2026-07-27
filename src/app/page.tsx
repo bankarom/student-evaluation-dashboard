@@ -66,6 +66,30 @@ export default function Home() {
     setToDate("");
   };
 
+  const handleExport = (type: 'json' | 'csv') => {
+    if (type === 'json') {
+      const dataStr = JSON.stringify(filteredSessions, null, 2);
+      const blob = new Blob([dataStr], { type: 'application/json' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = 'sessions_export.json';
+      a.click();
+    } else {
+      const headers = ['ID', 'Student', 'Mentor', 'Date', 'Duration(mins)', 'Status'];
+      const csvRows = filteredSessions.map(s => 
+        [s.id, s.studentName, s.mentorName, s.date, s.durationMinutes, s.status].join(',')
+      );
+      const csvContent = [headers.join(','), ...csvRows].join('\n');
+      const blob = new Blob([csvContent], { type: 'text/csv' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = 'sessions_export.csv';
+      a.click();
+    }
+  };
+
   return (
     <ProtectedRoute>
       <DashboardLayout>
@@ -89,6 +113,7 @@ export default function Home() {
             setFromDate={setFromDate}
             toDate={toDate}
             setToDate={setToDate}
+            onExport={handleExport}
           />
           
           {isLoading ? (

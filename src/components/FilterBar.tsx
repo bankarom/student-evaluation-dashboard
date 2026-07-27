@@ -7,6 +7,7 @@ interface FilterBarProps {
   setFromDate: (date: string) => void;
   toDate: string;
   setToDate: (date: string) => void;
+  onExport?: (type: 'json' | 'csv') => void;
 }
 
 export default function FilterBar({
@@ -15,7 +16,8 @@ export default function FilterBar({
   fromDate,
   setFromDate,
   toDate,
-  setToDate
+  setToDate,
+  onExport
 }: FilterBarProps) {
   return (
     <div className="bg-white p-4 rounded-xl shadow-sm border border-gray-100 mb-6 flex flex-col sm:flex-row gap-4 items-end">
@@ -64,6 +66,21 @@ export default function FilterBar({
           onChange={(e) => setToDate(e.target.value)}
           className="appearance-none block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm"
         />
+      </div>
+
+      <div className="flex gap-2 w-full sm:w-auto mt-4 sm:mt-0 ml-auto">
+        <button
+          onClick={() => onExport?.('csv')}
+          className="px-4 py-2 border border-gray-300 shadow-sm text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
+        >
+          Export CSV
+        </button>
+        <button
+          onClick={() => onExport?.('json')}
+          className="px-4 py-2 border border-transparent shadow-sm text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
+        >
+          Export JSON
+        </button>
       </div>
     </div>
   );
