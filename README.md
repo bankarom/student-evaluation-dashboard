@@ -51,4 +51,4 @@ Follow these steps to run the application locally:
    - **Password:** `evaluation2026`
 
 ## Live Deployment
-This application is deployed on Vercel: **[Insert Vercel Link Here]** 
+This application is deployed on Vercel: **[https://student-evaluation-dashboard.vercel.app](https://student-evaluation-dashboard.vercel.app)** 
