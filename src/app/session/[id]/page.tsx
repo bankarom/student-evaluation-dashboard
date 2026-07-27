@@ -186,8 +186,6 @@ Note: This is not part of the required assignment, but a bonus demonstration fea
                   </div>
                 </div>
               </div>
-
-              </div>
             </div>
           )}
         </div>
