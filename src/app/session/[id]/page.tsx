@@ -109,7 +109,7 @@ Note: This is not part of the required assignment, but a bonus demonstration fea
           ) : (
             <div className="space-y-6">
               {/* Header Card */}
-              <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
+              <div className="bg-white/80 backdrop-blur-xl p-6 rounded-2xl shadow-lg shadow-gray-200/40 border border-white/60">
                 <div className="flex flex-col md:flex-row justify-between md:items-start mb-6">
                   <div>
                     <h1 className="text-2xl font-bold text-gray-900 mb-2">{session.studentName}</h1>
@@ -169,22 +169,42 @@ Note: This is not part of the required assignment, but a bonus demonstration fea
                     clarity={session.averageClarity}
                     pacing={session.averagePacing}
                   />
-                  <div className="bg-white p-5 rounded-xl shadow-sm border border-gray-100">
-                    <h3 className="text-sm font-bold text-gray-700 mb-4">Quick Stats</h3>
-                    <div className="space-y-3">
-                      <div className="flex justify-between items-center border-b border-gray-50 pb-2">
-                        <span className="text-xs text-gray-500">Peak Engagement</span>
-                        <span className="text-sm font-semibold text-gray-800">{Math.max(...session.metrics.map(m => m.engagementScore))}%</span>
+                  <div className="bg-white/80 backdrop-blur-xl p-6 rounded-2xl shadow-lg shadow-gray-200/40 border border-white/60 flex flex-col justify-center">
+                    <h3 className="text-sm font-black text-gray-800 mb-5 uppercase tracking-wider">Quick Stats</h3>
+                    <div className="grid grid-cols-1 gap-4">
+                      {/* Peak Engagement Block */}
+                      <div className="flex items-center p-3.5 bg-gradient-to-r from-blue-50/80 to-indigo-50/80 rounded-xl border border-blue-100/50 shadow-sm transition-all hover:shadow-md">
+                        <div className="p-2.5 bg-blue-100 rounded-lg text-blue-600 mr-4 shadow-sm">
+                          <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" /></svg>
+                        </div>
+                        <div className="flex-1">
+                          <p className="text-xs text-blue-800/70 font-bold uppercase tracking-wide">Peak Engagement</p>
+                          <p className="text-xl font-black text-blue-950">{Math.max(...session.metrics.map(m => m.engagementScore))}%</p>
+                        </div>
                       </div>
-                      <div className="flex justify-between items-center border-b border-gray-50 pb-2">
-                        <span className="text-xs text-gray-500">Total Interactions</span>
-                        <span className="text-sm font-semibold text-gray-800">{session.metrics.length * 3}</span>
+                      
+                      {/* Interactions Block */}
+                      <div className="flex items-center p-3.5 bg-gradient-to-r from-purple-50/80 to-fuchsia-50/80 rounded-xl border border-purple-100/50 shadow-sm transition-all hover:shadow-md">
+                        <div className="p-2.5 bg-purple-100 rounded-lg text-purple-600 mr-4 shadow-sm">
+                          <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" /></svg>
+                        </div>
+                        <div className="flex-1">
+                          <p className="text-xs text-purple-800/70 font-bold uppercase tracking-wide">Total Interactions</p>
+                          <p className="text-xl font-black text-purple-950">{session.metrics.length * 3}</p>
+                        </div>
                       </div>
-                      <div className="flex justify-between items-center pb-1">
-                        <span className="text-xs text-gray-500">Overall Grade</span>
-                        <span className="text-sm font-semibold text-gray-800">
-                          {session.status === 'Excellent' ? 'A+' : session.status === 'Good' ? 'B' : session.status === 'Average' ? 'C' : 'D'}
-                        </span>
+
+                      {/* Grade Block */}
+                      <div className="flex items-center p-3.5 bg-gradient-to-r from-emerald-50/80 to-teal-50/80 rounded-xl border border-emerald-100/50 shadow-sm transition-all hover:shadow-md">
+                        <div className="p-2.5 bg-emerald-100 rounded-lg text-emerald-600 mr-4 shadow-sm">
+                          <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" /></svg>
+                        </div>
+                        <div className="flex-1">
+                          <p className="text-xs text-emerald-800/70 font-bold uppercase tracking-wide">Overall Grade</p>
+                          <p className="text-xl font-black text-emerald-950">
+                            {session.status === 'Excellent' ? 'A+' : session.status === 'Good' ? 'B' : session.status === 'Average' ? 'C' : 'D'}
+                          </p>
+                        </div>
                       </div>
                     </div>
                   </div>
