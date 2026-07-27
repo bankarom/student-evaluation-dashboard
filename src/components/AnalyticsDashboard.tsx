@@ -20,7 +20,13 @@ interface AnalyticsDashboardProps {
   sessions: Session[];
 }
 
-const COLORS = ['#10b981', '#3b82f6', '#f59e0b', '#ef4444'];
+// Map specific statuses to vibrant colors
+const STATUS_COLORS: Record<string, string> = {
+  'Excellent': '#10b981', // Emerald
+  'Good': '#3b82f6',      // Blue
+  'Average': '#f59e0b',   // Amber
+  'Needs Attention': '#ef4444' // Red
+};
 
 export default function AnalyticsDashboard({ sessions }: AnalyticsDashboardProps) {
   const chartData = useMemo(() => {
@@ -109,7 +115,7 @@ export default function AnalyticsDashboard({ sessions }: AnalyticsDashboardProps
                 label={({ name, percent }) => `${name} ${(percent * 100).toFixed(0)}%`}
               >
                 {chartData.pieData.map((entry, index) => (
-                  <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
+                  <Cell key={`cell-${index}`} fill={STATUS_COLORS[entry.name] || '#9ca3af'} />
                 ))}
               </Pie>
               <Tooltip />

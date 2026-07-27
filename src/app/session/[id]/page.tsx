@@ -6,6 +6,7 @@ import ProtectedRoute from "@/components/ProtectedRoute";
 import DashboardLayout from "@/components/DashboardLayout";
 import ErrorMessage from "@/components/ErrorMessage";
 import MetricsChart from "@/components/MetricsChart";
+import RadarMetricsChart from "@/components/RadarMetricsChart";
 import MonitorAgentModal from "@/components/MonitorAgentModal";
 import { getSessionById } from "@/lib/api";
 import { Session } from "@/types";
@@ -149,10 +150,43 @@ Note: This is not part of the required assignment, but a bonus demonstration fea
                 </div>
               </div>
 
-              {/* Chart Card */}
-              <div className="bg-white p-6 rounded-xl shadow-sm border border-gray-100">
-                <h3 className="text-lg font-bold text-gray-900 mb-6">Performance Insights Over Time</h3>
-                <MetricsChart data={session.metrics} />
+              {/* Advanced Metrics & Radar */}
+              <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+                <div className="lg:col-span-1 flex flex-col gap-6">
+                  <RadarMetricsChart 
+                    engagement={session.averageEngagement}
+                    clarity={session.averageClarity}
+                    pacing={session.averagePacing}
+                  />
+                  <div className="bg-white p-5 rounded-xl shadow-sm border border-gray-100">
+                    <h3 className="text-sm font-bold text-gray-700 mb-4">Quick Stats</h3>
+                    <div className="space-y-3">
+                      <div className="flex justify-between items-center border-b border-gray-50 pb-2">
+                        <span className="text-xs text-gray-500">Peak Engagement</span>
+                        <span className="text-sm font-semibold text-gray-800">{Math.max(...session.metrics.map(m => m.engagementScore))}%</span>
+                      </div>
+                      <div className="flex justify-between items-center border-b border-gray-50 pb-2">
+                        <span className="text-xs text-gray-500">Total Interactions</span>
+                        <span className="text-sm font-semibold text-gray-800">{session.metrics.length * 3}</span>
+                      </div>
+                      <div className="flex justify-between items-center pb-1">
+                        <span className="text-xs text-gray-500">Overall Grade</span>
+                        <span className="text-sm font-semibold text-gray-800">
+                          {session.status === 'Excellent' ? 'A+' : session.status === 'Good' ? 'B' : session.status === 'Average' ? 'C' : 'D'}
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="lg:col-span-2 bg-white p-6 rounded-xl shadow-sm border border-gray-100">
+                  <h3 className="text-lg font-bold text-gray-900 mb-6">Performance Insights Over Time</h3>
+                  <div className="h-80 w-full">
+                    <MetricsChart data={session.metrics} />
+                  </div>
+                </div>
+              </div>
+
               </div>
             </div>
           )}

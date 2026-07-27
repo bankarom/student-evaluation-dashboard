@@ -1,1707 +1,1707 @@
 [
-    {
-        "id":  "ses-001",
-        "studentName":  "Rohan Mehta",
-        "mentorName":  "Ms. Meera Nair",
-        "date":  "2026-06-30",
-        "durationMinutes":  59,
-        "metrics":  [
-                        {
-                            "timestamp":  "0:00",
-                            "engagementScore":  89,
-                            "clarityScore":  89,
-                            "pacingScore":  93
-                        },
-                        {
-                            "timestamp":  "5:00",
-                            "engagementScore":  96,
-                            "clarityScore":  81,
-                            "pacingScore":  83
-                        },
-                        {
-                            "timestamp":  "10:00",
-                            "engagementScore":  77,
-                            "clarityScore":  75,
-                            "pacingScore":  73
-                        },
-                        {
-                            "timestamp":  "15:00",
-                            "engagementScore":  90,
-                            "clarityScore":  98,
-                            "pacingScore":  96
-                        },
-                        {
-                            "timestamp":  "20:00",
-                            "engagementScore":  79,
-                            "clarityScore":  91,
-                            "pacingScore":  95
-                        },
-                        {
-                            "timestamp":  "25:00",
-                            "engagementScore":  78,
-                            "clarityScore":  90,
-                            "pacingScore":  68
-                        },
-                        {
-                            "timestamp":  "30:00",
-                            "engagementScore":  86,
-                            "clarityScore":  89,
-                            "pacingScore":  78
-                        },
-                        {
-                            "timestamp":  "35:00",
-                            "engagementScore":  70,
-                            "clarityScore":  91,
-                            "pacingScore":  61
-                        },
-                        {
-                            "timestamp":  "40:00",
-                            "engagementScore":  97,
-                            "clarityScore":  70,
-                            "pacingScore":  72
-                        },
-                        {
-                            "timestamp":  "45:00",
-                            "engagementScore":  86,
-                            "clarityScore":  90,
-                            "pacingScore":  72
-                        },
-                        {
-                            "timestamp":  "50:00",
-                            "engagementScore":  61,
-                            "clarityScore":  65,
-                            "pacingScore":  63
-                        },
-                        {
-                            "timestamp":  "55:00",
-                            "engagementScore":  71,
-                            "clarityScore":  62,
-                            "pacingScore":  83
-                        }
-                    ],
-        "averageEngagement":  82,
-        "averageClarity":  83,
-        "averagePacing":  78,
-        "status":  "Average"
-    },
-    {
-        "id":  "ses-002",
-        "studentName":  "Rohan Mehta",
-        "mentorName":  "Dr. Rajesh Khanna",
-        "date":  "2026-07-09",
-        "durationMinutes":  48,
-        "metrics":  [
-                        {
-                            "timestamp":  "0:00",
-                            "engagementScore":  75,
-                            "clarityScore":  60,
-                            "pacingScore":  75
-                        },
-                        {
-                            "timestamp":  "5:00",
-                            "engagementScore":  76,
-                            "clarityScore":  77,
-                            "pacingScore":  63
-                        },
-                        {
-                            "timestamp":  "10:00",
-                            "engagementScore":  66,
-                            "clarityScore":  98,
-                            "pacingScore":  63
-                        },
-                        {
-                            "timestamp":  "15:00",
-                            "engagementScore":  76,
-                            "clarityScore":  70,
-                            "pacingScore":  72
-                        },
-                        {
-                            "timestamp":  "20:00",
-                            "engagementScore":  98,
-                            "clarityScore":  65,
-                            "pacingScore":  81
-                        },
-                        {
-                            "timestamp":  "25:00",
-                            "engagementScore":  77,
-                            "clarityScore":  62,
-                            "pacingScore":  77
-                        },
-                        {
-                            "timestamp":  "30:00",
-                            "engagementScore":  74,
-                            "clarityScore":  81,
-                            "pacingScore":  67
-                        },
-                        {
-                            "timestamp":  "35:00",
-                            "engagementScore":  87,
-                            "clarityScore":  86,
-                            "pacingScore":  97
-                        },
-                        {
-                            "timestamp":  "40:00",
-                            "engagementScore":  60,
-                            "clarityScore":  71,
-                            "pacingScore":  85
-                        },
-                        {
-                            "timestamp":  "45:00",
-                            "engagementScore":  75,
-                            "clarityScore":  90,
-                            "pacingScore":  97
-                        }
-                    ],
-        "averageEngagement":  76,
-        "averageClarity":  76,
-        "averagePacing":  78,
-        "status":  "Average"
-    },
-    {
-        "id":  "ses-003",
-        "studentName":  "Aarav Patel",
-        "mentorName":  "Dr. Rajesh Khanna",
-        "date":  "2026-07-12",
-        "durationMinutes":  35,
-        "metrics":  [
-                        {
-                            "timestamp":  "0:00",
-                            "engagementScore":  64,
-                            "clarityScore":  69,
-                            "pacingScore":  78
-                        },
-                        {
-                            "timestamp":  "5:00",
-                            "engagementScore":  64,
-                            "clarityScore":  86,
-                            "pacingScore":  84
-                        },
-                        {
-                            "timestamp":  "10:00",
-                            "engagementScore":  67,
-                            "clarityScore":  97,
-                            "pacingScore":  93
-                        },
-                        {
-                            "timestamp":  "15:00",
-                            "engagementScore":  64,
-                            "clarityScore":  78,
-                            "pacingScore":  66
-                        },
-                        {
-                            "timestamp":  "20:00",
-                            "engagementScore":  72,
-                            "clarityScore":  90,
-                            "pacingScore":  97
-                        },
-                        {
-                            "timestamp":  "25:00",
-                            "engagementScore":  65,
-                            "clarityScore":  87,
-                            "pacingScore":  79
-                        },
-                        {
-                            "timestamp":  "30:00",
-                            "engagementScore":  87,
-                            "clarityScore":  94,
-                            "pacingScore":  65
-                        },
-                        {
-                            "timestamp":  "35:00",
-                            "engagementScore":  79,
-                            "clarityScore":  95,
-                            "pacingScore":  82
-                        }
-                    ],
-        "averageEngagement":  70,
-        "averageClarity":  87,
-        "averagePacing":  81,
-        "status":  "Average"
-    },
-    {
-        "id":  "ses-004",
-        "studentName":  "Priya Sharma",
-        "mentorName":  "Dr. Suresh Verma",
-        "date":  "2026-07-16",
-        "durationMinutes":  46,
-        "metrics":  [
-                        {
-                            "timestamp":  "0:00",
-                            "engagementScore":  79,
-                            "clarityScore":  86,
-                            "pacingScore":  88
-                        },
-                        {
-                            "timestamp":  "5:00",
-                            "engagementScore":  70,
-                            "clarityScore":  82,
-                            "pacingScore":  78
-                        },
-                        {
-                            "timestamp":  "10:00",
-                            "engagementScore":  67,
-                            "clarityScore":  65,
-                            "pacingScore":  64
-                        },
-                        {
-                            "timestamp":  "15:00",
-                            "engagementScore":  77,
-                            "clarityScore":  85,
-                            "pacingScore":  68
-                        },
-                        {
-                            "timestamp":  "20:00",
-                            "engagementScore":  70,
-                            "clarityScore":  67,
-                            "pacingScore":  62
-                        },
-                        {
-                            "timestamp":  "25:00",
-                            "engagementScore":  71,
-                            "clarityScore":  63,
-                            "pacingScore":  99
-                        },
-                        {
-                            "timestamp":  "30:00",
-                            "engagementScore":  61,
-                            "clarityScore":  61,
-                            "pacingScore":  91
-                        },
-                        {
-                            "timestamp":  "35:00",
-                            "engagementScore":  98,
-                            "clarityScore":  67,
-                            "pacingScore":  86
-                        },
-                        {
-                            "timestamp":  "40:00",
-                            "engagementScore":  64,
-                            "clarityScore":  88,
-                            "pacingScore":  67
-                        },
-                        {
-                            "timestamp":  "45:00",
-                            "engagementScore":  82,
-                            "clarityScore":  66,
-                            "pacingScore":  70
-                        }
-                    ],
-        "averageEngagement":  74,
-        "averageClarity":  73,
-        "averagePacing":  77,
-        "status":  "Average"
-    },
-    {
-        "id":  "ses-005",
-        "studentName":  "Aarav Patel",
-        "mentorName":  "Dr. Suresh Verma",
-        "date":  "2026-07-07",
-        "durationMinutes":  39,
-        "metrics":  [
-                        {
-                            "timestamp":  "0:00",
-                            "engagementScore":  94,
-                            "clarityScore":  78,
-                            "pacingScore":  79
-                        },
-                        {
-                            "timestamp":  "5:00",
-                            "engagementScore":  76,
-                            "clarityScore":  73,
-                            "pacingScore":  60
-                        },
-                        {
-                            "timestamp":  "10:00",
-                            "engagementScore":  95,
-                            "clarityScore":  73,
-                            "pacingScore":  63
-                        },
-                        {
-                            "timestamp":  "15:00",
-                            "engagementScore":  82,
-                            "clarityScore":  84,
-                            "pacingScore":  65
-                        },
-                        {
-                            "timestamp":  "20:00",
-                            "engagementScore":  96,
-                            "clarityScore":  93,
-                            "pacingScore":  68
-                        },
-                        {
-                            "timestamp":  "25:00",
-                            "engagementScore":  98,
-                            "clarityScore":  83,
-                            "pacingScore":  65
-                        },
-                        {
-                            "timestamp":  "30:00",
-                            "engagementScore":  62,
-                            "clarityScore":  68,
-                            "pacingScore":  83
-                        },
-                        {
-                            "timestamp":  "35:00",
-                            "engagementScore":  68,
-                            "clarityScore":  62,
-                            "pacingScore":  64
-                        }
-                    ],
-        "averageEngagement":  84,
-        "averageClarity":  77,
-        "averagePacing":  68,
-        "status":  "Average"
-    },
-    {
-        "id":  "ses-006",
-        "studentName":  "Amit Singh",
-        "mentorName":  "Dr. Rajesh Khanna",
-        "date":  "2026-07-27",
-        "durationMinutes":  37,
-        "metrics":  [
-                        {
-                            "timestamp":  "0:00",
-                            "engagementScore":  94,
-                            "clarityScore":  76,
-                            "pacingScore":  89
-                        },
-                        {
-                            "timestamp":  "5:00",
-                            "engagementScore":  72,
-                            "clarityScore":  62,
-                            "pacingScore":  81
-                        },
-                        {
-                            "timestamp":  "10:00",
-                            "engagementScore":  63,
-                            "clarityScore":  68,
-                            "pacingScore":  83
-                        },
-                        {
-                            "timestamp":  "15:00",
-                            "engagementScore":  68,
-                            "clarityScore":  70,
-                            "pacingScore":  81
-                        },
-                        {
-                            "timestamp":  "20:00",
-                            "engagementScore":  73,
-                            "clarityScore":  67,
-                            "pacingScore":  93
-                        },
-                        {
-                            "timestamp":  "25:00",
-                            "engagementScore":  67,
-                            "clarityScore":  61,
-                            "pacingScore":  64
-                        },
-                        {
-                            "timestamp":  "30:00",
-                            "engagementScore":  76,
-                            "clarityScore":  68,
-                            "pacingScore":  87
-                        },
-                        {
-                            "timestamp":  "35:00",
-                            "engagementScore":  76,
-                            "clarityScore":  94,
-                            "pacingScore":  93
-                        }
-                    ],
-        "averageEngagement":  74,
-        "averageClarity":  71,
-        "averagePacing":  84,
-        "status":  "Average"
-    },
-    {
-        "id":  "ses-007",
-        "studentName":  "Neha Gupta",
-        "mentorName":  "Prof. Sunita Rao",
-        "date":  "2026-07-17",
-        "durationMinutes":  57,
-        "metrics":  [
-                        {
-                            "timestamp":  "0:00",
-                            "engagementScore":  60,
-                            "clarityScore":  77,
-                            "pacingScore":  89
-                        },
-                        {
-                            "timestamp":  "5:00",
-                            "engagementScore":  96,
-                            "clarityScore":  69,
-                            "pacingScore":  89
-                        },
-                        {
-                            "timestamp":  "10:00",
-                            "engagementScore":  84,
-                            "clarityScore":  64,
-                            "pacingScore":  78
-                        },
-                        {
-                            "timestamp":  "15:00",
-                            "engagementScore":  99,
-                            "clarityScore":  92,
-                            "pacingScore":  83
-                        },
-                        {
-                            "timestamp":  "20:00",
-                            "engagementScore":  95,
-                            "clarityScore":  62,
-                            "pacingScore":  64
-                        },
-                        {
-                            "timestamp":  "25:00",
-                            "engagementScore":  99,
-                            "clarityScore":  99,
-                            "pacingScore":  72
-                        },
-                        {
-                            "timestamp":  "30:00",
-                            "engagementScore":  83,
-                            "clarityScore":  61,
-                            "pacingScore":  65
-                        },
-                        {
-                            "timestamp":  "35:00",
-                            "engagementScore":  75,
-                            "clarityScore":  64,
-                            "pacingScore":  67
-                        },
-                        {
-                            "timestamp":  "40:00",
-                            "engagementScore":  68,
-                            "clarityScore":  76,
-                            "pacingScore":  75
-                        },
-                        {
-                            "timestamp":  "45:00",
-                            "engagementScore":  66,
-                            "clarityScore":  84,
-                            "pacingScore":  99
-                        },
-                        {
-                            "timestamp":  "50:00",
-                            "engagementScore":  92,
-                            "clarityScore":  74,
-                            "pacingScore":  68
-                        },
-                        {
-                            "timestamp":  "55:00",
-                            "engagementScore":  87,
-                            "clarityScore":  75,
-                            "pacingScore":  89
-                        }
-                    ],
-        "averageEngagement":  84,
-        "averageClarity":  75,
-        "averagePacing":  78,
-        "status":  "Average"
-    },
-    {
-        "id":  "ses-008",
-        "studentName":  "Rohan Mehta",
-        "mentorName":  "Prof. Sunita Rao",
-        "date":  "2026-07-24",
-        "durationMinutes":  45,
-        "metrics":  [
-                        {
-                            "timestamp":  "0:00",
-                            "engagementScore":  74,
-                            "clarityScore":  93,
-                            "pacingScore":  69
-                        },
-                        {
-                            "timestamp":  "5:00",
-                            "engagementScore":  97,
-                            "clarityScore":  93,
-                            "pacingScore":  90
-                        },
-                        {
-                            "timestamp":  "10:00",
-                            "engagementScore":  94,
-                            "clarityScore":  64,
-                            "pacingScore":  62
-                        },
-                        {
-                            "timestamp":  "15:00",
-                            "engagementScore":  82,
-                            "clarityScore":  87,
-                            "pacingScore":  61
-                        },
-                        {
-                            "timestamp":  "20:00",
-                            "engagementScore":  66,
-                            "clarityScore":  68,
-                            "pacingScore":  89
-                        },
-                        {
-                            "timestamp":  "25:00",
-                            "engagementScore":  99,
-                            "clarityScore":  79,
-                            "pacingScore":  92
-                        },
-                        {
-                            "timestamp":  "30:00",
-                            "engagementScore":  71,
-                            "clarityScore":  67,
-                            "pacingScore":  85
-                        },
-                        {
-                            "timestamp":  "35:00",
-                            "engagementScore":  89,
-                            "clarityScore":  69,
-                            "pacingScore":  80
-                        },
-                        {
-                            "timestamp":  "40:00",
-                            "engagementScore":  97,
-                            "clarityScore":  69,
-                            "pacingScore":  95
-                        },
-                        {
-                            "timestamp":  "45:00",
-                            "engagementScore":  77,
-                            "clarityScore":  74,
-                            "pacingScore":  87
-                        }
-                    ],
-        "averageEngagement":  85,
-        "averageClarity":  76,
-        "averagePacing":  81,
-        "status":  "Average"
-    },
-    {
-        "id":  "ses-009",
-        "studentName":  "Ananya Desai",
-        "mentorName":  "Dr. Suresh Verma",
-        "date":  "2026-07-03",
-        "durationMinutes":  44,
-        "metrics":  [
-                        {
-                            "timestamp":  "0:00",
-                            "engagementScore":  76,
-                            "clarityScore":  77,
-                            "pacingScore":  62
-                        },
-                        {
-                            "timestamp":  "5:00",
-                            "engagementScore":  90,
-                            "clarityScore":  60,
-                            "pacingScore":  98
-                        },
-                        {
-                            "timestamp":  "10:00",
-                            "engagementScore":  83,
-                            "clarityScore":  66,
-                            "pacingScore":  97
-                        },
-                        {
-                            "timestamp":  "15:00",
-                            "engagementScore":  63,
-                            "clarityScore":  89,
-                            "pacingScore":  80
-                        },
-                        {
-                            "timestamp":  "20:00",
-                            "engagementScore":  68,
-                            "clarityScore":  69,
-                            "pacingScore":  83
-                        },
-                        {
-                            "timestamp":  "25:00",
-                            "engagementScore":  94,
-                            "clarityScore":  74,
-                            "pacingScore":  98
-                        },
-                        {
-                            "timestamp":  "30:00",
-                            "engagementScore":  79,
-                            "clarityScore":  92,
-                            "pacingScore":  78
-                        },
-                        {
-                            "timestamp":  "35:00",
-                            "engagementScore":  78,
-                            "clarityScore":  85,
-                            "pacingScore":  95
-                        },
-                        {
-                            "timestamp":  "40:00",
-                            "engagementScore":  74,
-                            "clarityScore":  84,
-                            "pacingScore":  91
-                        }
-                    ],
-        "averageEngagement":  78,
-        "averageClarity":  77,
-        "averagePacing":  87,
-        "status":  "Average"
-    },
-    {
-        "id":  "ses-010",
-        "studentName":  "Amit Singh",
-        "mentorName":  "Dr. Rajesh Khanna",
-        "date":  "2026-07-23",
-        "durationMinutes":  48,
-        "metrics":  [
-                        {
-                            "timestamp":  "0:00",
-                            "engagementScore":  74,
-                            "clarityScore":  69,
-                            "pacingScore":  83
-                        },
-                        {
-                            "timestamp":  "5:00",
-                            "engagementScore":  78,
-                            "clarityScore":  79,
-                            "pacingScore":  88
-                        },
-                        {
-                            "timestamp":  "10:00",
-                            "engagementScore":  79,
-                            "clarityScore":  98,
-                            "pacingScore":  67
-                        },
-                        {
-                            "timestamp":  "15:00",
-                            "engagementScore":  70,
-                            "clarityScore":  91,
-                            "pacingScore":  70
-                        },
-                        {
-                            "timestamp":  "20:00",
-                            "engagementScore":  90,
-                            "clarityScore":  92,
-                            "pacingScore":  91
-                        },
-                        {
-                            "timestamp":  "25:00",
-                            "engagementScore":  83,
-                            "clarityScore":  77,
-                            "pacingScore":  77
-                        },
-                        {
-                            "timestamp":  "30:00",
-                            "engagementScore":  78,
-                            "clarityScore":  67,
-                            "pacingScore":  93
-                        },
-                        {
-                            "timestamp":  "35:00",
-                            "engagementScore":  82,
-                            "clarityScore":  79,
-                            "pacingScore":  95
-                        },
-                        {
-                            "timestamp":  "40:00",
-                            "engagementScore":  91,
-                            "clarityScore":  78,
-                            "pacingScore":  64
-                        },
-                        {
-                            "timestamp":  "45:00",
-                            "engagementScore":  94,
-                            "clarityScore":  99,
-                            "pacingScore":  92
-                        }
-                    ],
-        "averageEngagement":  82,
-        "averageClarity":  83,
-        "averagePacing":  82,
-        "status":  "Average"
-    },
-    {
-        "id":  "ses-011",
-        "studentName":  "Priya Sharma",
-        "mentorName":  "Prof. Sunita Rao",
-        "date":  "2026-07-18",
-        "durationMinutes":  45,
-        "metrics":  [
-                        {
-                            "timestamp":  "0:00",
-                            "engagementScore":  64,
-                            "clarityScore":  61,
-                            "pacingScore":  68
-                        },
-                        {
-                            "timestamp":  "5:00",
-                            "engagementScore":  68,
-                            "clarityScore":  79,
-                            "pacingScore":  77
-                        },
-                        {
-                            "timestamp":  "10:00",
-                            "engagementScore":  94,
-                            "clarityScore":  74,
-                            "pacingScore":  96
-                        },
-                        {
-                            "timestamp":  "15:00",
-                            "engagementScore":  92,
-                            "clarityScore":  78,
-                            "pacingScore":  99
-                        },
-                        {
-                            "timestamp":  "20:00",
-                            "engagementScore":  76,
-                            "clarityScore":  81,
-                            "pacingScore":  93
-                        },
-                        {
-                            "timestamp":  "25:00",
-                            "engagementScore":  90,
-                            "clarityScore":  74,
-                            "pacingScore":  72
-                        },
-                        {
-                            "timestamp":  "30:00",
-                            "engagementScore":  70,
-                            "clarityScore":  89,
-                            "pacingScore":  60
-                        },
-                        {
-                            "timestamp":  "35:00",
-                            "engagementScore":  99,
-                            "clarityScore":  79,
-                            "pacingScore":  74
-                        },
-                        {
-                            "timestamp":  "40:00",
-                            "engagementScore":  90,
-                            "clarityScore":  96,
-                            "pacingScore":  79
-                        },
-                        {
-                            "timestamp":  "45:00",
-                            "engagementScore":  65,
-                            "clarityScore":  91,
-                            "pacingScore":  65
-                        }
-                    ],
-        "averageEngagement":  81,
-        "averageClarity":  80,
-        "averagePacing":  78,
-        "status":  "Average"
-    },
-    {
-        "id":  "ses-012",
-        "studentName":  "Rohan Mehta",
-        "mentorName":  "Dr. Suresh Verma",
-        "date":  "2026-07-03",
-        "durationMinutes":  34,
-        "metrics":  [
-                        {
-                            "timestamp":  "0:00",
-                            "engagementScore":  65,
-                            "clarityScore":  71,
-                            "pacingScore":  85
-                        },
-                        {
-                            "timestamp":  "5:00",
-                            "engagementScore":  99,
-                            "clarityScore":  68,
-                            "pacingScore":  99
-                        },
-                        {
-                            "timestamp":  "10:00",
-                            "engagementScore":  94,
-                            "clarityScore":  99,
-                            "pacingScore":  84
-                        },
-                        {
-                            "timestamp":  "15:00",
-                            "engagementScore":  68,
-                            "clarityScore":  61,
-                            "pacingScore":  87
-                        },
-                        {
-                            "timestamp":  "20:00",
-                            "engagementScore":  64,
-                            "clarityScore":  61,
-                            "pacingScore":  99
-                        },
-                        {
-                            "timestamp":  "25:00",
-                            "engagementScore":  91,
-                            "clarityScore":  95,
-                            "pacingScore":  85
-                        },
-                        {
-                            "timestamp":  "30:00",
-                            "engagementScore":  73,
-                            "clarityScore":  72,
-                            "pacingScore":  80
-                        }
-                    ],
-        "averageEngagement":  79,
-        "averageClarity":  75,
-        "averagePacing":  88,
-        "status":  "Average"
-    },
-    {
-        "id":  "ses-013",
-        "studentName":  "Amit Singh",
-        "mentorName":  "Prof. Sunita Rao",
-        "date":  "2026-07-15",
-        "durationMinutes":  43,
-        "metrics":  [
-                        {
-                            "timestamp":  "0:00",
-                            "engagementScore":  91,
-                            "clarityScore":  75,
-                            "pacingScore":  71
-                        },
-                        {
-                            "timestamp":  "5:00",
-                            "engagementScore":  65,
-                            "clarityScore":  94,
-                            "pacingScore":  99
-                        },
-                        {
-                            "timestamp":  "10:00",
-                            "engagementScore":  98,
-                            "clarityScore":  77,
-                            "pacingScore":  74
-                        },
-                        {
-                            "timestamp":  "15:00",
-                            "engagementScore":  95,
-                            "clarityScore":  60,
-                            "pacingScore":  91
-                        },
-                        {
-                            "timestamp":  "20:00",
-                            "engagementScore":  76,
-                            "clarityScore":  87,
-                            "pacingScore":  91
-                        },
-                        {
-                            "timestamp":  "25:00",
-                            "engagementScore":  86,
-                            "clarityScore":  76,
-                            "pacingScore":  72
-                        },
-                        {
-                            "timestamp":  "30:00",
-                            "engagementScore":  73,
-                            "clarityScore":  94,
-                            "pacingScore":  94
-                        },
-                        {
-                            "timestamp":  "35:00",
-                            "engagementScore":  62,
-                            "clarityScore":  95,
-                            "pacingScore":  92
-                        },
-                        {
-                            "timestamp":  "40:00",
-                            "engagementScore":  79,
-                            "clarityScore":  78,
-                            "pacingScore":  73
-                        }
-                    ],
-        "averageEngagement":  81,
-        "averageClarity":  82,
-        "averagePacing":  84,
-        "status":  "Average"
-    },
-    {
-        "id":  "ses-014",
-        "studentName":  "Aarav Patel",
-        "mentorName":  "Dr. Suresh Verma",
-        "date":  "2026-07-16",
-        "durationMinutes":  44,
-        "metrics":  [
-                        {
-                            "timestamp":  "0:00",
-                            "engagementScore":  70,
-                            "clarityScore":  66,
-                            "pacingScore":  73
-                        },
-                        {
-                            "timestamp":  "5:00",
-                            "engagementScore":  93,
-                            "clarityScore":  67,
-                            "pacingScore":  69
-                        },
-                        {
-                            "timestamp":  "10:00",
-                            "engagementScore":  99,
-                            "clarityScore":  79,
-                            "pacingScore":  93
-                        },
-                        {
-                            "timestamp":  "15:00",
-                            "engagementScore":  63,
-                            "clarityScore":  72,
-                            "pacingScore":  83
-                        },
-                        {
-                            "timestamp":  "20:00",
-                            "engagementScore":  78,
-                            "clarityScore":  64,
-                            "pacingScore":  82
-                        },
-                        {
-                            "timestamp":  "25:00",
-                            "engagementScore":  82,
-                            "clarityScore":  96,
-                            "pacingScore":  79
-                        },
-                        {
-                            "timestamp":  "30:00",
-                            "engagementScore":  70,
-                            "clarityScore":  72,
-                            "pacingScore":  95
-                        },
-                        {
-                            "timestamp":  "35:00",
-                            "engagementScore":  77,
-                            "clarityScore":  68,
-                            "pacingScore":  62
-                        },
-                        {
-                            "timestamp":  "40:00",
-                            "engagementScore":  61,
-                            "clarityScore":  97,
-                            "pacingScore":  65
-                        }
-                    ],
-        "averageEngagement":  77,
-        "averageClarity":  76,
-        "averagePacing":  78,
-        "status":  "Average"
-    },
-    {
-        "id":  "ses-015",
-        "studentName":  "Amit Singh",
-        "mentorName":  "Dr. Suresh Verma",
-        "date":  "2026-07-12",
-        "durationMinutes":  39,
-        "metrics":  [
-                        {
-                            "timestamp":  "0:00",
-                            "engagementScore":  86,
-                            "clarityScore":  69,
-                            "pacingScore":  78
-                        },
-                        {
-                            "timestamp":  "5:00",
-                            "engagementScore":  87,
-                            "clarityScore":  86,
-                            "pacingScore":  64
-                        },
-                        {
-                            "timestamp":  "10:00",
-                            "engagementScore":  82,
-                            "clarityScore":  83,
-                            "pacingScore":  90
-                        },
-                        {
-                            "timestamp":  "15:00",
-                            "engagementScore":  81,
-                            "clarityScore":  82,
-                            "pacingScore":  73
-                        },
-                        {
-                            "timestamp":  "20:00",
-                            "engagementScore":  96,
-                            "clarityScore":  64,
-                            "pacingScore":  82
-                        },
-                        {
-                            "timestamp":  "25:00",
-                            "engagementScore":  79,
-                            "clarityScore":  61,
-                            "pacingScore":  98
-                        },
-                        {
-                            "timestamp":  "30:00",
-                            "engagementScore":  96,
-                            "clarityScore":  94,
-                            "pacingScore":  88
-                        },
-                        {
-                            "timestamp":  "35:00",
-                            "engagementScore":  92,
-                            "clarityScore":  94,
-                            "pacingScore":  96
-                        }
-                    ],
-        "averageEngagement":  87,
-        "averageClarity":  79,
-        "averagePacing":  84,
-        "status":  "Average"
-    },
-    {
-        "id":  "ses-016",
-        "studentName":  "Priya Sharma",
-        "mentorName":  "Ms. Meera Nair",
-        "date":  "2026-07-17",
-        "durationMinutes":  45,
-        "metrics":  [
-                        {
-                            "timestamp":  "0:00",
-                            "engagementScore":  78,
-                            "clarityScore":  87,
-                            "pacingScore":  92
-                        },
-                        {
-                            "timestamp":  "5:00",
-                            "engagementScore":  87,
-                            "clarityScore":  67,
-                            "pacingScore":  87
-                        },
-                        {
-                            "timestamp":  "10:00",
-                            "engagementScore":  86,
-                            "clarityScore":  65,
-                            "pacingScore":  74
-                        },
-                        {
-                            "timestamp":  "15:00",
-                            "engagementScore":  82,
-                            "clarityScore":  67,
-                            "pacingScore":  85
-                        },
-                        {
-                            "timestamp":  "20:00",
-                            "engagementScore":  77,
-                            "clarityScore":  93,
-                            "pacingScore":  79
-                        },
-                        {
-                            "timestamp":  "25:00",
-                            "engagementScore":  64,
-                            "clarityScore":  87,
-                            "pacingScore":  97
-                        },
-                        {
-                            "timestamp":  "30:00",
-                            "engagementScore":  68,
-                            "clarityScore":  74,
-                            "pacingScore":  95
-                        },
-                        {
-                            "timestamp":  "35:00",
-                            "engagementScore":  74,
-                            "clarityScore":  98,
-                            "pacingScore":  79
-                        },
-                        {
-                            "timestamp":  "40:00",
-                            "engagementScore":  87,
-                            "clarityScore":  80,
-                            "pacingScore":  79
-                        },
-                        {
-                            "timestamp":  "45:00",
-                            "engagementScore":  91,
-                            "clarityScore":  76,
-                            "pacingScore":  82
-                        }
-                    ],
-        "averageEngagement":  79,
-        "averageClarity":  79,
-        "averagePacing":  85,
-        "status":  "Average"
-    },
-    {
-        "id":  "ses-017",
-        "studentName":  "Rohan Mehta",
-        "mentorName":  "Dr. Rajesh Khanna",
-        "date":  "2026-07-01",
-        "durationMinutes":  33,
-        "metrics":  [
-                        {
-                            "timestamp":  "0:00",
-                            "engagementScore":  80,
-                            "clarityScore":  66,
-                            "pacingScore":  64
-                        },
-                        {
-                            "timestamp":  "5:00",
-                            "engagementScore":  78,
-                            "clarityScore":  75,
-                            "pacingScore":  84
-                        },
-                        {
-                            "timestamp":  "10:00",
-                            "engagementScore":  78,
-                            "clarityScore":  74,
-                            "pacingScore":  71
-                        },
-                        {
-                            "timestamp":  "15:00",
-                            "engagementScore":  70,
-                            "clarityScore":  77,
-                            "pacingScore":  99
-                        },
-                        {
-                            "timestamp":  "20:00",
-                            "engagementScore":  96,
-                            "clarityScore":  78,
-                            "pacingScore":  95
-                        },
-                        {
-                            "timestamp":  "25:00",
-                            "engagementScore":  68,
-                            "clarityScore":  89,
-                            "pacingScore":  99
-                        },
-                        {
-                            "timestamp":  "30:00",
-                            "engagementScore":  64,
-                            "clarityScore":  93,
-                            "pacingScore":  68
-                        }
-                    ],
-        "averageEngagement":  76,
-        "averageClarity":  79,
-        "averagePacing":  83,
-        "status":  "Average"
-    },
-    {
-        "id":  "ses-018",
-        "studentName":  "Priya Sharma",
-        "mentorName":  "Prof. Sunita Rao",
-        "date":  "2026-07-15",
-        "durationMinutes":  41,
-        "metrics":  [
-                        {
-                            "timestamp":  "0:00",
-                            "engagementScore":  71,
-                            "clarityScore":  81,
-                            "pacingScore":  80
-                        },
-                        {
-                            "timestamp":  "5:00",
-                            "engagementScore":  65,
-                            "clarityScore":  82,
-                            "pacingScore":  60
-                        },
-                        {
-                            "timestamp":  "10:00",
-                            "engagementScore":  98,
-                            "clarityScore":  76,
-                            "pacingScore":  82
-                        },
-                        {
-                            "timestamp":  "15:00",
-                            "engagementScore":  84,
-                            "clarityScore":  98,
-                            "pacingScore":  99
-                        },
-                        {
-                            "timestamp":  "20:00",
-                            "engagementScore":  66,
-                            "clarityScore":  72,
-                            "pacingScore":  60
-                        },
-                        {
-                            "timestamp":  "25:00",
-                            "engagementScore":  60,
-                            "clarityScore":  74,
-                            "pacingScore":  79
-                        },
-                        {
-                            "timestamp":  "30:00",
-                            "engagementScore":  79,
-                            "clarityScore":  71,
-                            "pacingScore":  81
-                        },
-                        {
-                            "timestamp":  "35:00",
-                            "engagementScore":  71,
-                            "clarityScore":  75,
-                            "pacingScore":  80
-                        },
-                        {
-                            "timestamp":  "40:00",
-                            "engagementScore":  86,
-                            "clarityScore":  72,
-                            "pacingScore":  81
-                        }
-                    ],
-        "averageEngagement":  76,
-        "averageClarity":  78,
-        "averagePacing":  78,
-        "status":  "Average"
-    },
-    {
-        "id":  "ses-019",
-        "studentName":  "Rohan Mehta",
-        "mentorName":  "Prof. Sunita Rao",
-        "date":  "2026-07-03",
-        "durationMinutes":  35,
-        "metrics":  [
-                        {
-                            "timestamp":  "0:00",
-                            "engagementScore":  91,
-                            "clarityScore":  76,
-                            "pacingScore":  93
-                        },
-                        {
-                            "timestamp":  "5:00",
-                            "engagementScore":  67,
-                            "clarityScore":  67,
-                            "pacingScore":  74
-                        },
-                        {
-                            "timestamp":  "10:00",
-                            "engagementScore":  97,
-                            "clarityScore":  63,
-                            "pacingScore":  76
-                        },
-                        {
-                            "timestamp":  "15:00",
-                            "engagementScore":  87,
-                            "clarityScore":  60,
-                            "pacingScore":  76
-                        },
-                        {
-                            "timestamp":  "20:00",
-                            "engagementScore":  88,
-                            "clarityScore":  98,
-                            "pacingScore":  62
-                        },
-                        {
-                            "timestamp":  "25:00",
-                            "engagementScore":  97,
-                            "clarityScore":  82,
-                            "pacingScore":  69
-                        },
-                        {
-                            "timestamp":  "30:00",
-                            "engagementScore":  78,
-                            "clarityScore":  64,
-                            "pacingScore":  68
-                        },
-                        {
-                            "timestamp":  "35:00",
-                            "engagementScore":  79,
-                            "clarityScore":  87,
-                            "pacingScore":  97
-                        }
-                    ],
-        "averageEngagement":  86,
-        "averageClarity":  75,
-        "averagePacing":  77,
-        "status":  "Average"
-    },
-    {
-        "id":  "ses-020",
-        "studentName":  "Vikram Joshi",
-        "mentorName":  "Dr. Rajesh Khanna",
-        "date":  "2026-07-16",
-        "durationMinutes":  42,
-        "metrics":  [
-                        {
-                            "timestamp":  "0:00",
-                            "engagementScore":  60,
-                            "clarityScore":  83,
-                            "pacingScore":  87
-                        },
-                        {
-                            "timestamp":  "5:00",
-                            "engagementScore":  63,
-                            "clarityScore":  84,
-                            "pacingScore":  77
-                        },
-                        {
-                            "timestamp":  "10:00",
-                            "engagementScore":  97,
-                            "clarityScore":  63,
-                            "pacingScore":  82
-                        },
-                        {
-                            "timestamp":  "15:00",
-                            "engagementScore":  60,
-                            "clarityScore":  79,
-                            "pacingScore":  94
-                        },
-                        {
-                            "timestamp":  "20:00",
-                            "engagementScore":  72,
-                            "clarityScore":  95,
-                            "pacingScore":  69
-                        },
-                        {
-                            "timestamp":  "25:00",
-                            "engagementScore":  64,
-                            "clarityScore":  79,
-                            "pacingScore":  70
-                        },
-                        {
-                            "timestamp":  "30:00",
-                            "engagementScore":  65,
-                            "clarityScore":  79,
-                            "pacingScore":  73
-                        },
-                        {
-                            "timestamp":  "35:00",
-                            "engagementScore":  73,
-                            "clarityScore":  90,
-                            "pacingScore":  99
-                        },
-                        {
-                            "timestamp":  "40:00",
-                            "engagementScore":  83,
-                            "clarityScore":  82,
-                            "pacingScore":  78
-                        }
-                    ],
-        "averageEngagement":  71,
-        "averageClarity":  82,
-        "averagePacing":  81,
-        "status":  "Average"
-    },
-    {
-        "id":  "ses-021",
-        "studentName":  "Rohan Mehta",
-        "mentorName":  "Dr. Rajesh Khanna",
-        "date":  "2026-07-19",
-        "durationMinutes":  48,
-        "metrics":  [
-                        {
-                            "timestamp":  "0:00",
-                            "engagementScore":  67,
-                            "clarityScore":  78,
-                            "pacingScore":  93
-                        },
-                        {
-                            "timestamp":  "5:00",
-                            "engagementScore":  84,
-                            "clarityScore":  70,
-                            "pacingScore":  92
-                        },
-                        {
-                            "timestamp":  "10:00",
-                            "engagementScore":  97,
-                            "clarityScore":  85,
-                            "pacingScore":  75
-                        },
-                        {
-                            "timestamp":  "15:00",
-                            "engagementScore":  91,
-                            "clarityScore":  85,
-                            "pacingScore":  93
-                        },
-                        {
-                            "timestamp":  "20:00",
-                            "engagementScore":  86,
-                            "clarityScore":  72,
-                            "pacingScore":  69
-                        },
-                        {
-                            "timestamp":  "25:00",
-                            "engagementScore":  84,
-                            "clarityScore":  95,
-                            "pacingScore":  79
-                        },
-                        {
-                            "timestamp":  "30:00",
-                            "engagementScore":  88,
-                            "clarityScore":  96,
-                            "pacingScore":  80
-                        },
-                        {
-                            "timestamp":  "35:00",
-                            "engagementScore":  98,
-                            "clarityScore":  64,
-                            "pacingScore":  77
-                        },
-                        {
-                            "timestamp":  "40:00",
-                            "engagementScore":  63,
-                            "clarityScore":  70,
-                            "pacingScore":  69
-                        },
-                        {
-                            "timestamp":  "45:00",
-                            "engagementScore":  64,
-                            "clarityScore":  76,
-                            "pacingScore":  68
-                        }
-                    ],
-        "averageEngagement":  82,
-        "averageClarity":  79,
-        "averagePacing":  80,
-        "status":  "Average"
-    },
-    {
-        "id":  "ses-022",
-        "studentName":  "Sneha Iyer",
-        "mentorName":  "Prof. Sunita Rao",
-        "date":  "2026-07-18",
-        "durationMinutes":  58,
-        "metrics":  [
-                        {
-                            "timestamp":  "0:00",
-                            "engagementScore":  73,
-                            "clarityScore":  70,
-                            "pacingScore":  98
-                        },
-                        {
-                            "timestamp":  "5:00",
-                            "engagementScore":  71,
-                            "clarityScore":  83,
-                            "pacingScore":  98
-                        },
-                        {
-                            "timestamp":  "10:00",
-                            "engagementScore":  94,
-                            "clarityScore":  98,
-                            "pacingScore":  91
-                        },
-                        {
-                            "timestamp":  "15:00",
-                            "engagementScore":  71,
-                            "clarityScore":  64,
-                            "pacingScore":  81
-                        },
-                        {
-                            "timestamp":  "20:00",
-                            "engagementScore":  78,
-                            "clarityScore":  69,
-                            "pacingScore":  60
-                        },
-                        {
-                            "timestamp":  "25:00",
-                            "engagementScore":  99,
-                            "clarityScore":  98,
-                            "pacingScore":  76
-                        },
-                        {
-                            "timestamp":  "30:00",
-                            "engagementScore":  77,
-                            "clarityScore":  73,
-                            "pacingScore":  97
-                        },
-                        {
-                            "timestamp":  "35:00",
-                            "engagementScore":  86,
-                            "clarityScore":  82,
-                            "pacingScore":  72
-                        },
-                        {
-                            "timestamp":  "40:00",
-                            "engagementScore":  67,
-                            "clarityScore":  76,
-                            "pacingScore":  89
-                        },
-                        {
-                            "timestamp":  "45:00",
-                            "engagementScore":  64,
-                            "clarityScore":  84,
-                            "pacingScore":  89
-                        },
-                        {
-                            "timestamp":  "50:00",
-                            "engagementScore":  71,
-                            "clarityScore":  79,
-                            "pacingScore":  74
-                        },
-                        {
-                            "timestamp":  "55:00",
-                            "engagementScore":  70,
-                            "clarityScore":  86,
-                            "pacingScore":  65
-                        }
-                    ],
-        "averageEngagement":  77,
-        "averageClarity":  80,
-        "averagePacing":  83,
-        "status":  "Average"
-    },
-    {
-        "id":  "ses-023",
-        "studentName":  "Sneha Iyer",
-        "mentorName":  "Ms. Meera Nair",
-        "date":  "2026-07-22",
-        "durationMinutes":  53,
-        "metrics":  [
-                        {
-                            "timestamp":  "0:00",
-                            "engagementScore":  64,
-                            "clarityScore":  82,
-                            "pacingScore":  93
-                        },
-                        {
-                            "timestamp":  "5:00",
-                            "engagementScore":  89,
-                            "clarityScore":  75,
-                            "pacingScore":  78
-                        },
-                        {
-                            "timestamp":  "10:00",
-                            "engagementScore":  80,
-                            "clarityScore":  70,
-                            "pacingScore":  92
-                        },
-                        {
-                            "timestamp":  "15:00",
-                            "engagementScore":  69,
-                            "clarityScore":  61,
-                            "pacingScore":  80
-                        },
-                        {
-                            "timestamp":  "20:00",
-                            "engagementScore":  91,
-                            "clarityScore":  94,
-                            "pacingScore":  71
-                        },
-                        {
-                            "timestamp":  "25:00",
-                            "engagementScore":  91,
-                            "clarityScore":  83,
-                            "pacingScore":  85
-                        },
-                        {
-                            "timestamp":  "30:00",
-                            "engagementScore":  90,
-                            "clarityScore":  87,
-                            "pacingScore":  63
-                        },
-                        {
-                            "timestamp":  "35:00",
-                            "engagementScore":  79,
-                            "clarityScore":  75,
-                            "pacingScore":  72
-                        },
-                        {
-                            "timestamp":  "40:00",
-                            "engagementScore":  93,
-                            "clarityScore":  78,
-                            "pacingScore":  99
-                        },
-                        {
-                            "timestamp":  "45:00",
-                            "engagementScore":  88,
-                            "clarityScore":  85,
-                            "pacingScore":  84
-                        },
-                        {
-                            "timestamp":  "50:00",
-                            "engagementScore":  92,
-                            "clarityScore":  83,
-                            "pacingScore":  83
-                        }
-                    ],
-        "averageEngagement":  84,
-        "averageClarity":  79,
-        "averagePacing":  82,
-        "status":  "Average"
-    },
-    {
-        "id":  "ses-024",
-        "studentName":  "Aarav Patel",
-        "mentorName":  "Dr. Suresh Verma",
-        "date":  "2026-07-03",
-        "durationMinutes":  31,
-        "metrics":  [
-                        {
-                            "timestamp":  "0:00",
-                            "engagementScore":  85,
-                            "clarityScore":  94,
-                            "pacingScore":  75
-                        },
-                        {
-                            "timestamp":  "5:00",
-                            "engagementScore":  96,
-                            "clarityScore":  73,
-                            "pacingScore":  92
-                        },
-                        {
-                            "timestamp":  "10:00",
-                            "engagementScore":  79,
-                            "clarityScore":  86,
-                            "pacingScore":  97
-                        },
-                        {
-                            "timestamp":  "15:00",
-                            "engagementScore":  79,
-                            "clarityScore":  85,
-                            "pacingScore":  74
-                        },
-                        {
-                            "timestamp":  "20:00",
-                            "engagementScore":  98,
-                            "clarityScore":  70,
-                            "pacingScore":  79
-                        },
-                        {
-                            "timestamp":  "25:00",
-                            "engagementScore":  98,
-                            "clarityScore":  66,
-                            "pacingScore":  84
-                        },
-                        {
-                            "timestamp":  "30:00",
-                            "engagementScore":  76,
-                            "clarityScore":  70,
-                            "pacingScore":  97
-                        }
-                    ],
-        "averageEngagement":  87,
-        "averageClarity":  78,
-        "averagePacing":  85,
-        "status":  "Average"
-    },
-    {
-        "id":  "ses-025",
-        "studentName":  "Aarav Patel",
-        "mentorName":  "Dr. Rajesh Khanna",
-        "date":  "2026-07-04",
-        "durationMinutes":  31,
-        "metrics":  [
-                        {
-                            "timestamp":  "0:00",
-                            "engagementScore":  75,
-                            "clarityScore":  76,
-                            "pacingScore":  67
-                        },
-                        {
-                            "timestamp":  "5:00",
-                            "engagementScore":  95,
-                            "clarityScore":  68,
-                            "pacingScore":  95
-                        },
-                        {
-                            "timestamp":  "10:00",
-                            "engagementScore":  72,
-                            "clarityScore":  87,
-                            "pacingScore":  88
-                        },
-                        {
-                            "timestamp":  "15:00",
-                            "engagementScore":  97,
-                            "clarityScore":  88,
-                            "pacingScore":  86
-                        },
-                        {
-                            "timestamp":  "20:00",
-                            "engagementScore":  60,
-                            "clarityScore":  65,
-                            "pacingScore":  62
-                        },
-                        {
-                            "timestamp":  "25:00",
-                            "engagementScore":  82,
-                            "clarityScore":  75,
-                            "pacingScore":  94
-                        },
-                        {
-                            "timestamp":  "30:00",
-                            "engagementScore":  93,
-                            "clarityScore":  91,
-                            "pacingScore":  80
-                        }
-                    ],
-        "averageEngagement":  82,
-        "averageClarity":  79,
-        "averagePacing":  82,
-        "status":  "Average"
-    }
+  {
+    "id": "ses-001",
+    "studentName": "Rohan Mehta",
+    "mentorName": "Ms. Meera Nair",
+    "date": "2026-07-25",
+    "durationMinutes": 59,
+    "metrics": [
+      {
+        "timestamp": "0:00",
+        "engagementScore": 89,
+        "clarityScore": 89,
+        "pacingScore": 93
+      },
+      {
+        "timestamp": "5:00",
+        "engagementScore": 96,
+        "clarityScore": 81,
+        "pacingScore": 83
+      },
+      {
+        "timestamp": "10:00",
+        "engagementScore": 77,
+        "clarityScore": 75,
+        "pacingScore": 73
+      },
+      {
+        "timestamp": "15:00",
+        "engagementScore": 90,
+        "clarityScore": 98,
+        "pacingScore": 96
+      },
+      {
+        "timestamp": "20:00",
+        "engagementScore": 79,
+        "clarityScore": 91,
+        "pacingScore": 95
+      },
+      {
+        "timestamp": "25:00",
+        "engagementScore": 78,
+        "clarityScore": 90,
+        "pacingScore": 68
+      },
+      {
+        "timestamp": "30:00",
+        "engagementScore": 86,
+        "clarityScore": 89,
+        "pacingScore": 78
+      },
+      {
+        "timestamp": "35:00",
+        "engagementScore": 70,
+        "clarityScore": 91,
+        "pacingScore": 61
+      },
+      {
+        "timestamp": "40:00",
+        "engagementScore": 97,
+        "clarityScore": 70,
+        "pacingScore": 72
+      },
+      {
+        "timestamp": "45:00",
+        "engagementScore": 86,
+        "clarityScore": 90,
+        "pacingScore": 72
+      },
+      {
+        "timestamp": "50:00",
+        "engagementScore": 61,
+        "clarityScore": 65,
+        "pacingScore": 63
+      },
+      {
+        "timestamp": "55:00",
+        "engagementScore": 71,
+        "clarityScore": 62,
+        "pacingScore": 83
+      }
+    ],
+    "averageEngagement": 82,
+    "averageClarity": 83,
+    "averagePacing": 78,
+    "status": "Good"
+  },
+  {
+    "id": "ses-002",
+    "studentName": "Rohan Mehta",
+    "mentorName": "Dr. Rajesh Khanna",
+    "date": "2026-07-27",
+    "durationMinutes": 48,
+    "metrics": [
+      {
+        "timestamp": "0:00",
+        "engagementScore": 75,
+        "clarityScore": 60,
+        "pacingScore": 75
+      },
+      {
+        "timestamp": "5:00",
+        "engagementScore": 76,
+        "clarityScore": 77,
+        "pacingScore": 63
+      },
+      {
+        "timestamp": "10:00",
+        "engagementScore": 66,
+        "clarityScore": 98,
+        "pacingScore": 63
+      },
+      {
+        "timestamp": "15:00",
+        "engagementScore": 76,
+        "clarityScore": 70,
+        "pacingScore": 72
+      },
+      {
+        "timestamp": "20:00",
+        "engagementScore": 98,
+        "clarityScore": 65,
+        "pacingScore": 81
+      },
+      {
+        "timestamp": "25:00",
+        "engagementScore": 77,
+        "clarityScore": 62,
+        "pacingScore": 77
+      },
+      {
+        "timestamp": "30:00",
+        "engagementScore": 74,
+        "clarityScore": 81,
+        "pacingScore": 67
+      },
+      {
+        "timestamp": "35:00",
+        "engagementScore": 87,
+        "clarityScore": 86,
+        "pacingScore": 97
+      },
+      {
+        "timestamp": "40:00",
+        "engagementScore": 60,
+        "clarityScore": 71,
+        "pacingScore": 85
+      },
+      {
+        "timestamp": "45:00",
+        "engagementScore": 75,
+        "clarityScore": 90,
+        "pacingScore": 97
+      }
+    ],
+    "averageEngagement": 76,
+    "averageClarity": 76,
+    "averagePacing": 78,
+    "status": "Good"
+  },
+  {
+    "id": "ses-003",
+    "studentName": "Aarav Patel",
+    "mentorName": "Dr. Rajesh Khanna",
+    "date": "2026-07-25",
+    "durationMinutes": 35,
+    "metrics": [
+      {
+        "timestamp": "0:00",
+        "engagementScore": 64,
+        "clarityScore": 69,
+        "pacingScore": 78
+      },
+      {
+        "timestamp": "5:00",
+        "engagementScore": 64,
+        "clarityScore": 86,
+        "pacingScore": 84
+      },
+      {
+        "timestamp": "10:00",
+        "engagementScore": 67,
+        "clarityScore": 97,
+        "pacingScore": 93
+      },
+      {
+        "timestamp": "15:00",
+        "engagementScore": 64,
+        "clarityScore": 78,
+        "pacingScore": 66
+      },
+      {
+        "timestamp": "20:00",
+        "engagementScore": 72,
+        "clarityScore": 90,
+        "pacingScore": 97
+      },
+      {
+        "timestamp": "25:00",
+        "engagementScore": 65,
+        "clarityScore": 87,
+        "pacingScore": 79
+      },
+      {
+        "timestamp": "30:00",
+        "engagementScore": 87,
+        "clarityScore": 94,
+        "pacingScore": 65
+      },
+      {
+        "timestamp": "35:00",
+        "engagementScore": 79,
+        "clarityScore": 95,
+        "pacingScore": 82
+      }
+    ],
+    "averageEngagement": 70,
+    "averageClarity": 87,
+    "averagePacing": 81,
+    "status": "Good"
+  },
+  {
+    "id": "ses-004",
+    "studentName": "Priya Sharma",
+    "mentorName": "Dr. Suresh Verma",
+    "date": "2026-07-27",
+    "durationMinutes": 46,
+    "metrics": [
+      {
+        "timestamp": "0:00",
+        "engagementScore": 79,
+        "clarityScore": 86,
+        "pacingScore": 88
+      },
+      {
+        "timestamp": "5:00",
+        "engagementScore": 70,
+        "clarityScore": 82,
+        "pacingScore": 78
+      },
+      {
+        "timestamp": "10:00",
+        "engagementScore": 67,
+        "clarityScore": 65,
+        "pacingScore": 64
+      },
+      {
+        "timestamp": "15:00",
+        "engagementScore": 77,
+        "clarityScore": 85,
+        "pacingScore": 68
+      },
+      {
+        "timestamp": "20:00",
+        "engagementScore": 70,
+        "clarityScore": 67,
+        "pacingScore": 62
+      },
+      {
+        "timestamp": "25:00",
+        "engagementScore": 71,
+        "clarityScore": 63,
+        "pacingScore": 99
+      },
+      {
+        "timestamp": "30:00",
+        "engagementScore": 61,
+        "clarityScore": 61,
+        "pacingScore": 91
+      },
+      {
+        "timestamp": "35:00",
+        "engagementScore": 98,
+        "clarityScore": 67,
+        "pacingScore": 86
+      },
+      {
+        "timestamp": "40:00",
+        "engagementScore": 64,
+        "clarityScore": 88,
+        "pacingScore": 67
+      },
+      {
+        "timestamp": "45:00",
+        "engagementScore": 82,
+        "clarityScore": 66,
+        "pacingScore": 70
+      }
+    ],
+    "averageEngagement": 74,
+    "averageClarity": 73,
+    "averagePacing": 77,
+    "status": "Average"
+  },
+  {
+    "id": "ses-005",
+    "studentName": "Aarav Patel",
+    "mentorName": "Dr. Suresh Verma",
+    "date": "2026-07-27",
+    "durationMinutes": 39,
+    "metrics": [
+      {
+        "timestamp": "0:00",
+        "engagementScore": 94,
+        "clarityScore": 78,
+        "pacingScore": 79
+      },
+      {
+        "timestamp": "5:00",
+        "engagementScore": 76,
+        "clarityScore": 73,
+        "pacingScore": 60
+      },
+      {
+        "timestamp": "10:00",
+        "engagementScore": 95,
+        "clarityScore": 73,
+        "pacingScore": 63
+      },
+      {
+        "timestamp": "15:00",
+        "engagementScore": 82,
+        "clarityScore": 84,
+        "pacingScore": 65
+      },
+      {
+        "timestamp": "20:00",
+        "engagementScore": 96,
+        "clarityScore": 93,
+        "pacingScore": 68
+      },
+      {
+        "timestamp": "25:00",
+        "engagementScore": 98,
+        "clarityScore": 83,
+        "pacingScore": 65
+      },
+      {
+        "timestamp": "30:00",
+        "engagementScore": 62,
+        "clarityScore": 68,
+        "pacingScore": 83
+      },
+      {
+        "timestamp": "35:00",
+        "engagementScore": 68,
+        "clarityScore": 62,
+        "pacingScore": 64
+      }
+    ],
+    "averageEngagement": 84,
+    "averageClarity": 77,
+    "averagePacing": 68,
+    "status": "Good"
+  },
+  {
+    "id": "ses-006",
+    "studentName": "Amit Singh",
+    "mentorName": "Dr. Rajesh Khanna",
+    "date": "2026-07-26",
+    "durationMinutes": 37,
+    "metrics": [
+      {
+        "timestamp": "0:00",
+        "engagementScore": 94,
+        "clarityScore": 76,
+        "pacingScore": 89
+      },
+      {
+        "timestamp": "5:00",
+        "engagementScore": 72,
+        "clarityScore": 62,
+        "pacingScore": 81
+      },
+      {
+        "timestamp": "10:00",
+        "engagementScore": 63,
+        "clarityScore": 68,
+        "pacingScore": 83
+      },
+      {
+        "timestamp": "15:00",
+        "engagementScore": 68,
+        "clarityScore": 70,
+        "pacingScore": 81
+      },
+      {
+        "timestamp": "20:00",
+        "engagementScore": 73,
+        "clarityScore": 67,
+        "pacingScore": 93
+      },
+      {
+        "timestamp": "25:00",
+        "engagementScore": 67,
+        "clarityScore": 61,
+        "pacingScore": 64
+      },
+      {
+        "timestamp": "30:00",
+        "engagementScore": 76,
+        "clarityScore": 68,
+        "pacingScore": 87
+      },
+      {
+        "timestamp": "35:00",
+        "engagementScore": 76,
+        "clarityScore": 94,
+        "pacingScore": 93
+      }
+    ],
+    "averageEngagement": 74,
+    "averageClarity": 71,
+    "averagePacing": 84,
+    "status": "Good"
+  },
+  {
+    "id": "ses-007",
+    "studentName": "Neha Gupta",
+    "mentorName": "Prof. Sunita Rao",
+    "date": "2026-07-26",
+    "durationMinutes": 57,
+    "metrics": [
+      {
+        "timestamp": "0:00",
+        "engagementScore": 60,
+        "clarityScore": 77,
+        "pacingScore": 89
+      },
+      {
+        "timestamp": "5:00",
+        "engagementScore": 96,
+        "clarityScore": 69,
+        "pacingScore": 89
+      },
+      {
+        "timestamp": "10:00",
+        "engagementScore": 84,
+        "clarityScore": 64,
+        "pacingScore": 78
+      },
+      {
+        "timestamp": "15:00",
+        "engagementScore": 99,
+        "clarityScore": 92,
+        "pacingScore": 83
+      },
+      {
+        "timestamp": "20:00",
+        "engagementScore": 95,
+        "clarityScore": 62,
+        "pacingScore": 64
+      },
+      {
+        "timestamp": "25:00",
+        "engagementScore": 99,
+        "clarityScore": 99,
+        "pacingScore": 72
+      },
+      {
+        "timestamp": "30:00",
+        "engagementScore": 83,
+        "clarityScore": 61,
+        "pacingScore": 65
+      },
+      {
+        "timestamp": "35:00",
+        "engagementScore": 75,
+        "clarityScore": 64,
+        "pacingScore": 67
+      },
+      {
+        "timestamp": "40:00",
+        "engagementScore": 68,
+        "clarityScore": 76,
+        "pacingScore": 75
+      },
+      {
+        "timestamp": "45:00",
+        "engagementScore": 66,
+        "clarityScore": 84,
+        "pacingScore": 99
+      },
+      {
+        "timestamp": "50:00",
+        "engagementScore": 92,
+        "clarityScore": 74,
+        "pacingScore": 68
+      },
+      {
+        "timestamp": "55:00",
+        "engagementScore": 87,
+        "clarityScore": 75,
+        "pacingScore": 89
+      }
+    ],
+    "averageEngagement": 84,
+    "averageClarity": 75,
+    "averagePacing": 78,
+    "status": "Good"
+  },
+  {
+    "id": "ses-008",
+    "studentName": "Rohan Mehta",
+    "mentorName": "Prof. Sunita Rao",
+    "date": "2026-07-26",
+    "durationMinutes": 45,
+    "metrics": [
+      {
+        "timestamp": "0:00",
+        "engagementScore": 74,
+        "clarityScore": 93,
+        "pacingScore": 69
+      },
+      {
+        "timestamp": "5:00",
+        "engagementScore": 97,
+        "clarityScore": 93,
+        "pacingScore": 90
+      },
+      {
+        "timestamp": "10:00",
+        "engagementScore": 94,
+        "clarityScore": 64,
+        "pacingScore": 62
+      },
+      {
+        "timestamp": "15:00",
+        "engagementScore": 82,
+        "clarityScore": 87,
+        "pacingScore": 61
+      },
+      {
+        "timestamp": "20:00",
+        "engagementScore": 66,
+        "clarityScore": 68,
+        "pacingScore": 89
+      },
+      {
+        "timestamp": "25:00",
+        "engagementScore": 99,
+        "clarityScore": 79,
+        "pacingScore": 92
+      },
+      {
+        "timestamp": "30:00",
+        "engagementScore": 71,
+        "clarityScore": 67,
+        "pacingScore": 85
+      },
+      {
+        "timestamp": "35:00",
+        "engagementScore": 89,
+        "clarityScore": 69,
+        "pacingScore": 80
+      },
+      {
+        "timestamp": "40:00",
+        "engagementScore": 97,
+        "clarityScore": 69,
+        "pacingScore": 95
+      },
+      {
+        "timestamp": "45:00",
+        "engagementScore": 77,
+        "clarityScore": 74,
+        "pacingScore": 87
+      }
+    ],
+    "averageEngagement": 85,
+    "averageClarity": 76,
+    "averagePacing": 81,
+    "status": "Good"
+  },
+  {
+    "id": "ses-009",
+    "studentName": "Ananya Desai",
+    "mentorName": "Dr. Suresh Verma",
+    "date": "2026-07-26",
+    "durationMinutes": 44,
+    "metrics": [
+      {
+        "timestamp": "0:00",
+        "engagementScore": 76,
+        "clarityScore": 77,
+        "pacingScore": 62
+      },
+      {
+        "timestamp": "5:00",
+        "engagementScore": 90,
+        "clarityScore": 60,
+        "pacingScore": 98
+      },
+      {
+        "timestamp": "10:00",
+        "engagementScore": 83,
+        "clarityScore": 66,
+        "pacingScore": 97
+      },
+      {
+        "timestamp": "15:00",
+        "engagementScore": 63,
+        "clarityScore": 89,
+        "pacingScore": 80
+      },
+      {
+        "timestamp": "20:00",
+        "engagementScore": 68,
+        "clarityScore": 69,
+        "pacingScore": 83
+      },
+      {
+        "timestamp": "25:00",
+        "engagementScore": 94,
+        "clarityScore": 74,
+        "pacingScore": 98
+      },
+      {
+        "timestamp": "30:00",
+        "engagementScore": 79,
+        "clarityScore": 92,
+        "pacingScore": 78
+      },
+      {
+        "timestamp": "35:00",
+        "engagementScore": 78,
+        "clarityScore": 85,
+        "pacingScore": 95
+      },
+      {
+        "timestamp": "40:00",
+        "engagementScore": 74,
+        "clarityScore": 84,
+        "pacingScore": 91
+      }
+    ],
+    "averageEngagement": 78,
+    "averageClarity": 77,
+    "averagePacing": 87,
+    "status": "Good"
+  },
+  {
+    "id": "ses-010",
+    "studentName": "Amit Singh",
+    "mentorName": "Dr. Rajesh Khanna",
+    "date": "2026-07-25",
+    "durationMinutes": 48,
+    "metrics": [
+      {
+        "timestamp": "0:00",
+        "engagementScore": 74,
+        "clarityScore": 69,
+        "pacingScore": 83
+      },
+      {
+        "timestamp": "5:00",
+        "engagementScore": 78,
+        "clarityScore": 79,
+        "pacingScore": 88
+      },
+      {
+        "timestamp": "10:00",
+        "engagementScore": 79,
+        "clarityScore": 98,
+        "pacingScore": 67
+      },
+      {
+        "timestamp": "15:00",
+        "engagementScore": 70,
+        "clarityScore": 91,
+        "pacingScore": 70
+      },
+      {
+        "timestamp": "20:00",
+        "engagementScore": 90,
+        "clarityScore": 92,
+        "pacingScore": 91
+      },
+      {
+        "timestamp": "25:00",
+        "engagementScore": 83,
+        "clarityScore": 77,
+        "pacingScore": 77
+      },
+      {
+        "timestamp": "30:00",
+        "engagementScore": 78,
+        "clarityScore": 67,
+        "pacingScore": 93
+      },
+      {
+        "timestamp": "35:00",
+        "engagementScore": 82,
+        "clarityScore": 79,
+        "pacingScore": 95
+      },
+      {
+        "timestamp": "40:00",
+        "engagementScore": 91,
+        "clarityScore": 78,
+        "pacingScore": 64
+      },
+      {
+        "timestamp": "45:00",
+        "engagementScore": 94,
+        "clarityScore": 99,
+        "pacingScore": 92
+      }
+    ],
+    "averageEngagement": 82,
+    "averageClarity": 83,
+    "averagePacing": 82,
+    "status": "Excellent"
+  },
+  {
+    "id": "ses-011",
+    "studentName": "Priya Sharma",
+    "mentorName": "Prof. Sunita Rao",
+    "date": "2026-07-24",
+    "durationMinutes": 45,
+    "metrics": [
+      {
+        "timestamp": "0:00",
+        "engagementScore": 64,
+        "clarityScore": 61,
+        "pacingScore": 68
+      },
+      {
+        "timestamp": "5:00",
+        "engagementScore": 68,
+        "clarityScore": 79,
+        "pacingScore": 77
+      },
+      {
+        "timestamp": "10:00",
+        "engagementScore": 94,
+        "clarityScore": 74,
+        "pacingScore": 96
+      },
+      {
+        "timestamp": "15:00",
+        "engagementScore": 92,
+        "clarityScore": 78,
+        "pacingScore": 99
+      },
+      {
+        "timestamp": "20:00",
+        "engagementScore": 76,
+        "clarityScore": 81,
+        "pacingScore": 93
+      },
+      {
+        "timestamp": "25:00",
+        "engagementScore": 90,
+        "clarityScore": 74,
+        "pacingScore": 72
+      },
+      {
+        "timestamp": "30:00",
+        "engagementScore": 70,
+        "clarityScore": 89,
+        "pacingScore": 60
+      },
+      {
+        "timestamp": "35:00",
+        "engagementScore": 99,
+        "clarityScore": 79,
+        "pacingScore": 74
+      },
+      {
+        "timestamp": "40:00",
+        "engagementScore": 90,
+        "clarityScore": 96,
+        "pacingScore": 79
+      },
+      {
+        "timestamp": "45:00",
+        "engagementScore": 65,
+        "clarityScore": 91,
+        "pacingScore": 65
+      }
+    ],
+    "averageEngagement": 81,
+    "averageClarity": 80,
+    "averagePacing": 78,
+    "status": "Good"
+  },
+  {
+    "id": "ses-012",
+    "studentName": "Rohan Mehta",
+    "mentorName": "Dr. Suresh Verma",
+    "date": "2026-07-25",
+    "durationMinutes": 34,
+    "metrics": [
+      {
+        "timestamp": "0:00",
+        "engagementScore": 65,
+        "clarityScore": 71,
+        "pacingScore": 85
+      },
+      {
+        "timestamp": "5:00",
+        "engagementScore": 99,
+        "clarityScore": 68,
+        "pacingScore": 99
+      },
+      {
+        "timestamp": "10:00",
+        "engagementScore": 94,
+        "clarityScore": 99,
+        "pacingScore": 84
+      },
+      {
+        "timestamp": "15:00",
+        "engagementScore": 68,
+        "clarityScore": 61,
+        "pacingScore": 87
+      },
+      {
+        "timestamp": "20:00",
+        "engagementScore": 64,
+        "clarityScore": 61,
+        "pacingScore": 99
+      },
+      {
+        "timestamp": "25:00",
+        "engagementScore": 91,
+        "clarityScore": 95,
+        "pacingScore": 85
+      },
+      {
+        "timestamp": "30:00",
+        "engagementScore": 73,
+        "clarityScore": 72,
+        "pacingScore": 80
+      }
+    ],
+    "averageEngagement": 79,
+    "averageClarity": 75,
+    "averagePacing": 88,
+    "status": "Good"
+  },
+  {
+    "id": "ses-013",
+    "studentName": "Amit Singh",
+    "mentorName": "Prof. Sunita Rao",
+    "date": "2026-07-25",
+    "durationMinutes": 43,
+    "metrics": [
+      {
+        "timestamp": "0:00",
+        "engagementScore": 91,
+        "clarityScore": 75,
+        "pacingScore": 71
+      },
+      {
+        "timestamp": "5:00",
+        "engagementScore": 65,
+        "clarityScore": 94,
+        "pacingScore": 99
+      },
+      {
+        "timestamp": "10:00",
+        "engagementScore": 98,
+        "clarityScore": 77,
+        "pacingScore": 74
+      },
+      {
+        "timestamp": "15:00",
+        "engagementScore": 95,
+        "clarityScore": 60,
+        "pacingScore": 91
+      },
+      {
+        "timestamp": "20:00",
+        "engagementScore": 76,
+        "clarityScore": 87,
+        "pacingScore": 91
+      },
+      {
+        "timestamp": "25:00",
+        "engagementScore": 86,
+        "clarityScore": 76,
+        "pacingScore": 72
+      },
+      {
+        "timestamp": "30:00",
+        "engagementScore": 73,
+        "clarityScore": 94,
+        "pacingScore": 94
+      },
+      {
+        "timestamp": "35:00",
+        "engagementScore": 62,
+        "clarityScore": 95,
+        "pacingScore": 92
+      },
+      {
+        "timestamp": "40:00",
+        "engagementScore": 79,
+        "clarityScore": 78,
+        "pacingScore": 73
+      }
+    ],
+    "averageEngagement": 81,
+    "averageClarity": 82,
+    "averagePacing": 84,
+    "status": "Excellent"
+  },
+  {
+    "id": "ses-014",
+    "studentName": "Aarav Patel",
+    "mentorName": "Dr. Suresh Verma",
+    "date": "2026-07-24",
+    "durationMinutes": 44,
+    "metrics": [
+      {
+        "timestamp": "0:00",
+        "engagementScore": 70,
+        "clarityScore": 66,
+        "pacingScore": 73
+      },
+      {
+        "timestamp": "5:00",
+        "engagementScore": 93,
+        "clarityScore": 67,
+        "pacingScore": 69
+      },
+      {
+        "timestamp": "10:00",
+        "engagementScore": 99,
+        "clarityScore": 79,
+        "pacingScore": 93
+      },
+      {
+        "timestamp": "15:00",
+        "engagementScore": 63,
+        "clarityScore": 72,
+        "pacingScore": 83
+      },
+      {
+        "timestamp": "20:00",
+        "engagementScore": 78,
+        "clarityScore": 64,
+        "pacingScore": 82
+      },
+      {
+        "timestamp": "25:00",
+        "engagementScore": 82,
+        "clarityScore": 96,
+        "pacingScore": 79
+      },
+      {
+        "timestamp": "30:00",
+        "engagementScore": 70,
+        "clarityScore": 72,
+        "pacingScore": 95
+      },
+      {
+        "timestamp": "35:00",
+        "engagementScore": 77,
+        "clarityScore": 68,
+        "pacingScore": 62
+      },
+      {
+        "timestamp": "40:00",
+        "engagementScore": 61,
+        "clarityScore": 97,
+        "pacingScore": 65
+      }
+    ],
+    "averageEngagement": 77,
+    "averageClarity": 76,
+    "averagePacing": 78,
+    "status": "Good"
+  },
+  {
+    "id": "ses-015",
+    "studentName": "Amit Singh",
+    "mentorName": "Dr. Suresh Verma",
+    "date": "2026-07-25",
+    "durationMinutes": 39,
+    "metrics": [
+      {
+        "timestamp": "0:00",
+        "engagementScore": 86,
+        "clarityScore": 69,
+        "pacingScore": 78
+      },
+      {
+        "timestamp": "5:00",
+        "engagementScore": 87,
+        "clarityScore": 86,
+        "pacingScore": 64
+      },
+      {
+        "timestamp": "10:00",
+        "engagementScore": 82,
+        "clarityScore": 83,
+        "pacingScore": 90
+      },
+      {
+        "timestamp": "15:00",
+        "engagementScore": 81,
+        "clarityScore": 82,
+        "pacingScore": 73
+      },
+      {
+        "timestamp": "20:00",
+        "engagementScore": 96,
+        "clarityScore": 64,
+        "pacingScore": 82
+      },
+      {
+        "timestamp": "25:00",
+        "engagementScore": 79,
+        "clarityScore": 61,
+        "pacingScore": 98
+      },
+      {
+        "timestamp": "30:00",
+        "engagementScore": 96,
+        "clarityScore": 94,
+        "pacingScore": 88
+      },
+      {
+        "timestamp": "35:00",
+        "engagementScore": 92,
+        "clarityScore": 94,
+        "pacingScore": 96
+      }
+    ],
+    "averageEngagement": 87,
+    "averageClarity": 79,
+    "averagePacing": 84,
+    "status": "Excellent"
+  },
+  {
+    "id": "ses-016",
+    "studentName": "Priya Sharma",
+    "mentorName": "Ms. Meera Nair",
+    "date": "2026-07-24",
+    "durationMinutes": 45,
+    "metrics": [
+      {
+        "timestamp": "0:00",
+        "engagementScore": 78,
+        "clarityScore": 87,
+        "pacingScore": 92
+      },
+      {
+        "timestamp": "5:00",
+        "engagementScore": 87,
+        "clarityScore": 67,
+        "pacingScore": 87
+      },
+      {
+        "timestamp": "10:00",
+        "engagementScore": 86,
+        "clarityScore": 65,
+        "pacingScore": 74
+      },
+      {
+        "timestamp": "15:00",
+        "engagementScore": 82,
+        "clarityScore": 67,
+        "pacingScore": 85
+      },
+      {
+        "timestamp": "20:00",
+        "engagementScore": 77,
+        "clarityScore": 93,
+        "pacingScore": 79
+      },
+      {
+        "timestamp": "25:00",
+        "engagementScore": 64,
+        "clarityScore": 87,
+        "pacingScore": 97
+      },
+      {
+        "timestamp": "30:00",
+        "engagementScore": 68,
+        "clarityScore": 74,
+        "pacingScore": 95
+      },
+      {
+        "timestamp": "35:00",
+        "engagementScore": 74,
+        "clarityScore": 98,
+        "pacingScore": 79
+      },
+      {
+        "timestamp": "40:00",
+        "engagementScore": 87,
+        "clarityScore": 80,
+        "pacingScore": 79
+      },
+      {
+        "timestamp": "45:00",
+        "engagementScore": 91,
+        "clarityScore": 76,
+        "pacingScore": 82
+      }
+    ],
+    "averageEngagement": 79,
+    "averageClarity": 79,
+    "averagePacing": 85,
+    "status": "Good"
+  },
+  {
+    "id": "ses-017",
+    "studentName": "Rohan Mehta",
+    "mentorName": "Dr. Rajesh Khanna",
+    "date": "2026-07-24",
+    "durationMinutes": 33,
+    "metrics": [
+      {
+        "timestamp": "0:00",
+        "engagementScore": 80,
+        "clarityScore": 66,
+        "pacingScore": 64
+      },
+      {
+        "timestamp": "5:00",
+        "engagementScore": 78,
+        "clarityScore": 75,
+        "pacingScore": 84
+      },
+      {
+        "timestamp": "10:00",
+        "engagementScore": 78,
+        "clarityScore": 74,
+        "pacingScore": 71
+      },
+      {
+        "timestamp": "15:00",
+        "engagementScore": 70,
+        "clarityScore": 77,
+        "pacingScore": 99
+      },
+      {
+        "timestamp": "20:00",
+        "engagementScore": 96,
+        "clarityScore": 78,
+        "pacingScore": 95
+      },
+      {
+        "timestamp": "25:00",
+        "engagementScore": 68,
+        "clarityScore": 89,
+        "pacingScore": 99
+      },
+      {
+        "timestamp": "30:00",
+        "engagementScore": 64,
+        "clarityScore": 93,
+        "pacingScore": 68
+      }
+    ],
+    "averageEngagement": 76,
+    "averageClarity": 79,
+    "averagePacing": 83,
+    "status": "Good"
+  },
+  {
+    "id": "ses-018",
+    "studentName": "Priya Sharma",
+    "mentorName": "Prof. Sunita Rao",
+    "date": "2026-07-24",
+    "durationMinutes": 41,
+    "metrics": [
+      {
+        "timestamp": "0:00",
+        "engagementScore": 71,
+        "clarityScore": 81,
+        "pacingScore": 80
+      },
+      {
+        "timestamp": "5:00",
+        "engagementScore": 65,
+        "clarityScore": 82,
+        "pacingScore": 60
+      },
+      {
+        "timestamp": "10:00",
+        "engagementScore": 98,
+        "clarityScore": 76,
+        "pacingScore": 82
+      },
+      {
+        "timestamp": "15:00",
+        "engagementScore": 84,
+        "clarityScore": 98,
+        "pacingScore": 99
+      },
+      {
+        "timestamp": "20:00",
+        "engagementScore": 66,
+        "clarityScore": 72,
+        "pacingScore": 60
+      },
+      {
+        "timestamp": "25:00",
+        "engagementScore": 60,
+        "clarityScore": 74,
+        "pacingScore": 79
+      },
+      {
+        "timestamp": "30:00",
+        "engagementScore": 79,
+        "clarityScore": 71,
+        "pacingScore": 81
+      },
+      {
+        "timestamp": "35:00",
+        "engagementScore": 71,
+        "clarityScore": 75,
+        "pacingScore": 80
+      },
+      {
+        "timestamp": "40:00",
+        "engagementScore": 86,
+        "clarityScore": 72,
+        "pacingScore": 81
+      }
+    ],
+    "averageEngagement": 76,
+    "averageClarity": 78,
+    "averagePacing": 78,
+    "status": "Good"
+  },
+  {
+    "id": "ses-019",
+    "studentName": "Rohan Mehta",
+    "mentorName": "Prof. Sunita Rao",
+    "date": "2026-07-27",
+    "durationMinutes": 35,
+    "metrics": [
+      {
+        "timestamp": "0:00",
+        "engagementScore": 91,
+        "clarityScore": 76,
+        "pacingScore": 93
+      },
+      {
+        "timestamp": "5:00",
+        "engagementScore": 67,
+        "clarityScore": 67,
+        "pacingScore": 74
+      },
+      {
+        "timestamp": "10:00",
+        "engagementScore": 97,
+        "clarityScore": 63,
+        "pacingScore": 76
+      },
+      {
+        "timestamp": "15:00",
+        "engagementScore": 87,
+        "clarityScore": 60,
+        "pacingScore": 76
+      },
+      {
+        "timestamp": "20:00",
+        "engagementScore": 88,
+        "clarityScore": 98,
+        "pacingScore": 62
+      },
+      {
+        "timestamp": "25:00",
+        "engagementScore": 97,
+        "clarityScore": 82,
+        "pacingScore": 69
+      },
+      {
+        "timestamp": "30:00",
+        "engagementScore": 78,
+        "clarityScore": 64,
+        "pacingScore": 68
+      },
+      {
+        "timestamp": "35:00",
+        "engagementScore": 79,
+        "clarityScore": 87,
+        "pacingScore": 97
+      }
+    ],
+    "averageEngagement": 86,
+    "averageClarity": 75,
+    "averagePacing": 77,
+    "status": "Good"
+  },
+  {
+    "id": "ses-020",
+    "studentName": "Vikram Joshi",
+    "mentorName": "Dr. Rajesh Khanna",
+    "date": "2026-07-26",
+    "durationMinutes": 42,
+    "metrics": [
+      {
+        "timestamp": "0:00",
+        "engagementScore": 60,
+        "clarityScore": 83,
+        "pacingScore": 87
+      },
+      {
+        "timestamp": "5:00",
+        "engagementScore": 63,
+        "clarityScore": 84,
+        "pacingScore": 77
+      },
+      {
+        "timestamp": "10:00",
+        "engagementScore": 97,
+        "clarityScore": 63,
+        "pacingScore": 82
+      },
+      {
+        "timestamp": "15:00",
+        "engagementScore": 60,
+        "clarityScore": 79,
+        "pacingScore": 94
+      },
+      {
+        "timestamp": "20:00",
+        "engagementScore": 72,
+        "clarityScore": 95,
+        "pacingScore": 69
+      },
+      {
+        "timestamp": "25:00",
+        "engagementScore": 64,
+        "clarityScore": 79,
+        "pacingScore": 70
+      },
+      {
+        "timestamp": "30:00",
+        "engagementScore": 65,
+        "clarityScore": 79,
+        "pacingScore": 73
+      },
+      {
+        "timestamp": "35:00",
+        "engagementScore": 73,
+        "clarityScore": 90,
+        "pacingScore": 99
+      },
+      {
+        "timestamp": "40:00",
+        "engagementScore": 83,
+        "clarityScore": 82,
+        "pacingScore": 78
+      }
+    ],
+    "averageEngagement": 71,
+    "averageClarity": 82,
+    "averagePacing": 81,
+    "status": "Good"
+  },
+  {
+    "id": "ses-021",
+    "studentName": "Rohan Mehta",
+    "mentorName": "Dr. Rajesh Khanna",
+    "date": "2026-07-24",
+    "durationMinutes": 48,
+    "metrics": [
+      {
+        "timestamp": "0:00",
+        "engagementScore": 67,
+        "clarityScore": 78,
+        "pacingScore": 93
+      },
+      {
+        "timestamp": "5:00",
+        "engagementScore": 84,
+        "clarityScore": 70,
+        "pacingScore": 92
+      },
+      {
+        "timestamp": "10:00",
+        "engagementScore": 97,
+        "clarityScore": 85,
+        "pacingScore": 75
+      },
+      {
+        "timestamp": "15:00",
+        "engagementScore": 91,
+        "clarityScore": 85,
+        "pacingScore": 93
+      },
+      {
+        "timestamp": "20:00",
+        "engagementScore": 86,
+        "clarityScore": 72,
+        "pacingScore": 69
+      },
+      {
+        "timestamp": "25:00",
+        "engagementScore": 84,
+        "clarityScore": 95,
+        "pacingScore": 79
+      },
+      {
+        "timestamp": "30:00",
+        "engagementScore": 88,
+        "clarityScore": 96,
+        "pacingScore": 80
+      },
+      {
+        "timestamp": "35:00",
+        "engagementScore": 98,
+        "clarityScore": 64,
+        "pacingScore": 77
+      },
+      {
+        "timestamp": "40:00",
+        "engagementScore": 63,
+        "clarityScore": 70,
+        "pacingScore": 69
+      },
+      {
+        "timestamp": "45:00",
+        "engagementScore": 64,
+        "clarityScore": 76,
+        "pacingScore": 68
+      }
+    ],
+    "averageEngagement": 82,
+    "averageClarity": 79,
+    "averagePacing": 80,
+    "status": "Good"
+  },
+  {
+    "id": "ses-022",
+    "studentName": "Sneha Iyer",
+    "mentorName": "Prof. Sunita Rao",
+    "date": "2026-07-24",
+    "durationMinutes": 58,
+    "metrics": [
+      {
+        "timestamp": "0:00",
+        "engagementScore": 73,
+        "clarityScore": 70,
+        "pacingScore": 98
+      },
+      {
+        "timestamp": "5:00",
+        "engagementScore": 71,
+        "clarityScore": 83,
+        "pacingScore": 98
+      },
+      {
+        "timestamp": "10:00",
+        "engagementScore": 94,
+        "clarityScore": 98,
+        "pacingScore": 91
+      },
+      {
+        "timestamp": "15:00",
+        "engagementScore": 71,
+        "clarityScore": 64,
+        "pacingScore": 81
+      },
+      {
+        "timestamp": "20:00",
+        "engagementScore": 78,
+        "clarityScore": 69,
+        "pacingScore": 60
+      },
+      {
+        "timestamp": "25:00",
+        "engagementScore": 99,
+        "clarityScore": 98,
+        "pacingScore": 76
+      },
+      {
+        "timestamp": "30:00",
+        "engagementScore": 77,
+        "clarityScore": 73,
+        "pacingScore": 97
+      },
+      {
+        "timestamp": "35:00",
+        "engagementScore": 86,
+        "clarityScore": 82,
+        "pacingScore": 72
+      },
+      {
+        "timestamp": "40:00",
+        "engagementScore": 67,
+        "clarityScore": 76,
+        "pacingScore": 89
+      },
+      {
+        "timestamp": "45:00",
+        "engagementScore": 64,
+        "clarityScore": 84,
+        "pacingScore": 89
+      },
+      {
+        "timestamp": "50:00",
+        "engagementScore": 71,
+        "clarityScore": 79,
+        "pacingScore": 74
+      },
+      {
+        "timestamp": "55:00",
+        "engagementScore": 70,
+        "clarityScore": 86,
+        "pacingScore": 65
+      }
+    ],
+    "averageEngagement": 77,
+    "averageClarity": 80,
+    "averagePacing": 83,
+    "status": "Good"
+  },
+  {
+    "id": "ses-023",
+    "studentName": "Sneha Iyer",
+    "mentorName": "Ms. Meera Nair",
+    "date": "2026-07-27",
+    "durationMinutes": 53,
+    "metrics": [
+      {
+        "timestamp": "0:00",
+        "engagementScore": 64,
+        "clarityScore": 82,
+        "pacingScore": 93
+      },
+      {
+        "timestamp": "5:00",
+        "engagementScore": 89,
+        "clarityScore": 75,
+        "pacingScore": 78
+      },
+      {
+        "timestamp": "10:00",
+        "engagementScore": 80,
+        "clarityScore": 70,
+        "pacingScore": 92
+      },
+      {
+        "timestamp": "15:00",
+        "engagementScore": 69,
+        "clarityScore": 61,
+        "pacingScore": 80
+      },
+      {
+        "timestamp": "20:00",
+        "engagementScore": 91,
+        "clarityScore": 94,
+        "pacingScore": 71
+      },
+      {
+        "timestamp": "25:00",
+        "engagementScore": 91,
+        "clarityScore": 83,
+        "pacingScore": 85
+      },
+      {
+        "timestamp": "30:00",
+        "engagementScore": 90,
+        "clarityScore": 87,
+        "pacingScore": 63
+      },
+      {
+        "timestamp": "35:00",
+        "engagementScore": 79,
+        "clarityScore": 75,
+        "pacingScore": 72
+      },
+      {
+        "timestamp": "40:00",
+        "engagementScore": 93,
+        "clarityScore": 78,
+        "pacingScore": 99
+      },
+      {
+        "timestamp": "45:00",
+        "engagementScore": 88,
+        "clarityScore": 85,
+        "pacingScore": 84
+      },
+      {
+        "timestamp": "50:00",
+        "engagementScore": 92,
+        "clarityScore": 83,
+        "pacingScore": 83
+      }
+    ],
+    "averageEngagement": 84,
+    "averageClarity": 79,
+    "averagePacing": 82,
+    "status": "Good"
+  },
+  {
+    "id": "ses-024",
+    "studentName": "Aarav Patel",
+    "mentorName": "Dr. Suresh Verma",
+    "date": "2026-07-26",
+    "durationMinutes": 31,
+    "metrics": [
+      {
+        "timestamp": "0:00",
+        "engagementScore": 85,
+        "clarityScore": 94,
+        "pacingScore": 75
+      },
+      {
+        "timestamp": "5:00",
+        "engagementScore": 96,
+        "clarityScore": 73,
+        "pacingScore": 92
+      },
+      {
+        "timestamp": "10:00",
+        "engagementScore": 79,
+        "clarityScore": 86,
+        "pacingScore": 97
+      },
+      {
+        "timestamp": "15:00",
+        "engagementScore": 79,
+        "clarityScore": 85,
+        "pacingScore": 74
+      },
+      {
+        "timestamp": "20:00",
+        "engagementScore": 98,
+        "clarityScore": 70,
+        "pacingScore": 79
+      },
+      {
+        "timestamp": "25:00",
+        "engagementScore": 98,
+        "clarityScore": 66,
+        "pacingScore": 84
+      },
+      {
+        "timestamp": "30:00",
+        "engagementScore": 76,
+        "clarityScore": 70,
+        "pacingScore": 97
+      }
+    ],
+    "averageEngagement": 87,
+    "averageClarity": 78,
+    "averagePacing": 85,
+    "status": "Excellent"
+  },
+  {
+    "id": "ses-025",
+    "studentName": "Aarav Patel",
+    "mentorName": "Dr. Rajesh Khanna",
+    "date": "2026-07-26",
+    "durationMinutes": 31,
+    "metrics": [
+      {
+        "timestamp": "0:00",
+        "engagementScore": 75,
+        "clarityScore": 76,
+        "pacingScore": 67
+      },
+      {
+        "timestamp": "5:00",
+        "engagementScore": 95,
+        "clarityScore": 68,
+        "pacingScore": 95
+      },
+      {
+        "timestamp": "10:00",
+        "engagementScore": 72,
+        "clarityScore": 87,
+        "pacingScore": 88
+      },
+      {
+        "timestamp": "15:00",
+        "engagementScore": 97,
+        "clarityScore": 88,
+        "pacingScore": 86
+      },
+      {
+        "timestamp": "20:00",
+        "engagementScore": 60,
+        "clarityScore": 65,
+        "pacingScore": 62
+      },
+      {
+        "timestamp": "25:00",
+        "engagementScore": 82,
+        "clarityScore": 75,
+        "pacingScore": 94
+      },
+      {
+        "timestamp": "30:00",
+        "engagementScore": 93,
+        "clarityScore": 91,
+        "pacingScore": 80
+      }
+    ],
+    "averageEngagement": 82,
+    "averageClarity": 79,
+    "averagePacing": 82,
+    "status": "Good"
+  }
 ]
