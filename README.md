@@ -4,9 +4,9 @@ A production-grade, highly interactive internal analytics dashboard for monitori
 
 ## Project Description
 
-This dashboard allows mentors and administrators to evaluate the performance of students across various learning sessions. It aggregates detailed metrics—such as **Engagement**, **Clarity**, and **Pacing**—and presents them in a visually stunning, highly responsive interface. 
+This dashboard is a comprehensive analytics tool built for teachers and administrators to evaluate student performance across various learning sessions. It takes raw session data—such as **Engagement**, **Clarity**, and **Pacing**—and transforms it into clear, actionable insights using an interactive, highly responsive interface.
 
-The application was designed with a "Premium Glassmorphism" UI, featuring frosted glass panels, vibrant mesh gradient backgrounds, smooth micro-animations, and custom Area charts. It goes beyond the basic requirements by offering a truly premium user experience.
+To stand out, the application was designed with a "Premium Glassmorphism" UI. It features frosted glass panels, vibrant mesh gradient backgrounds, and beautiful custom Area charts, ensuring a world-class user experience that goes beyond a standard data table.
 
 ## Tech Stack Used
 
@@ -29,8 +29,9 @@ The application was designed with a "Premium Glassmorphism" UI, featuring froste
 ## 🚀 Additional Bonus Features Implemented
 
 To ensure a premium user experience, the following features were added beyond the basic requirements:
+- **Desktop Monitoring Agent Integration**: A custom UI flow for downloading and connecting a mock desktop monitoring agent.
 - **Data Exporting**: One-click exports for CSV, JSON, and PDF Reports.
-- **Premium Glassmorphism UI**: High-end styling using frosted glass panels, mesh gradient backgrounds, and micro-animations (similar to Apple Health / macOS).
+- **Premium Glassmorphism UI**: High-end styling using frosted glass panels, mesh gradient backgrounds, and micro-animations.
 - **Custom Area & Radar Charts**: Upgraded standard Recharts lines to custom SVG Area fills with natural smoothing and beautiful tooltips.
 
 ## Setup & Execution Instructions 
