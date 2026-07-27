@@ -20,7 +20,7 @@ export default function FilterBar({
   onExport
 }: FilterBarProps) {
   return (
-    <div className="bg-white p-5 rounded-2xl shadow-lg shadow-gray-200/40 border border-gray-100 mb-8 flex flex-col md:flex-row gap-5 items-end">
+    <div className="bg-white/80 backdrop-blur-xl p-5 rounded-2xl shadow-lg shadow-gray-200/40 border border-white/60 mb-8 flex flex-col md:flex-row gap-5 items-end">
       <div className="flex-1 w-full relative">
         <label htmlFor="search" className="block text-sm font-bold text-gray-800 mb-2">
           Search Student

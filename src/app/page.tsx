@@ -133,7 +133,7 @@ export default function Home() {
               <div className="fixed inset-0 z-50 w-screen overflow-y-auto">
                 <div className="flex min-h-full items-end justify-center p-4 text-center sm:items-center sm:p-0">
                   {/* Modal Panel */}
-                  <div className="relative transform overflow-hidden rounded-2xl bg-white text-left shadow-2xl transition-all sm:my-8 sm:w-full sm:max-w-2xl border border-gray-100">
+                  <div className="relative transform overflow-hidden rounded-3xl bg-white/90 backdrop-blur-2xl text-left shadow-2xl transition-all sm:my-8 sm:w-full sm:max-w-2xl border border-white/60">
                     <div className="absolute right-0 top-0 pr-4 pt-4">
                       <button
                         type="button"

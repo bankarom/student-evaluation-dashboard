@@ -76,7 +76,7 @@ export default function AnalyticsDashboard({ sessions }: AnalyticsDashboardProps
   if (!sessions.length) return null;
 
   return (
-    <div className="mb-8 bg-white p-6 rounded-xl shadow-sm border border-gray-100">
+    <div className="mb-8 bg-white/80 backdrop-blur-xl p-6 rounded-2xl shadow-lg shadow-gray-200/40 border border-white/60">
       <h2 className="text-xl font-bold text-gray-900 mb-6">Data Analytics Overview</h2>
       
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">

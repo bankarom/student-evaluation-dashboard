@@ -9,7 +9,7 @@ interface SessionTableProps {
 export default function SessionTable({ sessions }: SessionTableProps) {
   if (sessions.length === 0) {
     return (
-      <div className="bg-white p-12 text-center rounded-xl border border-gray-100 shadow-sm">
+      <div className="bg-white/80 backdrop-blur-xl p-12 text-center rounded-2xl border border-white/60 shadow-lg shadow-gray-200/40">
         <svg className="w-12 h-12 text-gray-300 mx-auto mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
         </svg>
@@ -22,9 +22,9 @@ export default function SessionTable({ sessions }: SessionTableProps) {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
       {sessions.map((session) => (
-        <div key={session.id} className="bg-white rounded-2xl shadow-sm hover:shadow-lg transition-all duration-300 border border-gray-100 overflow-hidden flex flex-col">
+        <div key={session.id} className="bg-white/80 backdrop-blur-xl rounded-2xl shadow-lg shadow-gray-200/40 border border-white/60 overflow-hidden flex flex-col">
           
-          <div className="p-5 border-b border-gray-50 flex justify-between items-start">
+          <div className="p-5 border-b border-gray-100/50 flex justify-between items-start">
             <div>
               <h3 className="text-lg font-bold text-gray-900 flex items-center">
                 {session.studentName}
