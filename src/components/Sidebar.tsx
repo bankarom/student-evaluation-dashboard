@@ -1,7 +1,12 @@
+"use client";
+
 import React from 'react';
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 
 export default function Sidebar() {
+  const pathname = usePathname();
+  
   return (
     <aside className="w-64 bg-gray-900 text-white flex flex-col h-full hidden md:flex min-h-screen">
       <div className="p-6 border-b border-gray-800">
